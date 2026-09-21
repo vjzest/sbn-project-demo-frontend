@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { FaBars, FaTimes, FaAngleDown } from 'react-icons/fa';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const navLinks = [
     { name: 'Home', href: '/' },
@@ -161,8 +162,9 @@ const Header = () => {
                         </ul>
                     </nav>
 
-                    {/* Action Section / Mobile Toggle */}
-                    <div className="flex items-center ml-auto gap-4">
+                    {/* Action Section / Language Switcher & Mobile Toggle */}
+                    <div className="flex items-center ml-auto gap-3 xl:gap-4">
+                        <LanguageSwitcher />
                         <button
                             className="w-10 h-10 xl:w-12 xl:h-12 bg-[#0033e7] hover:bg-blue-800 text-white rounded-xl flex items-center justify-center transition-all duration-300 shadow-lg shadow-[#0033e7]/20 xl:hidden"
                             onClick={toggleMenu}
@@ -172,8 +174,6 @@ const Header = () => {
                         >
                             {isOpen ? <FaTimes /> : <FaBars />}
                         </button>
-
-                        {/* Desktop action button removed as requested - nav items are already visible */}
                     </div>
                 </div>
             </div>

@@ -1,0 +1,1966 @@
+{
+    "en": {
+        "nav": {
+            "home": "Home",
+            "about_us": "About Us",
+            "solutions": "Solutions",
+            "specialties": "Specialties",
+            "resources": "Resources",
+            "compliance": "Compliance & Security",
+            "rcm_calculator": "RCM Calculator",
+            "pricing": "Pricing",
+            "blog": "Blog",
+            "contact_us": "Contact Us",
+            "eligibility_front_office": "Eligibility & Front Office",
+            "benefits_check": "Benefits Check",
+            "prior_authorization": "Prior Authorization",
+            "exclusion_check": "Exclusion Check",
+            "patient_collections": "Patient Collection & AR Recovery",
+            "consulting": "Consulting",
+            "more_solutions": "More Solutions",
+            "behavioral_health": "Behavioral Health",
+            "dme_orthopedics": "DME / Orthopedics",
+            "urgent_care": "Urgent Care & Telehealth",
+            "small_mid_practices": "Small–Mid Practices",
+            "multi_speciality": "Multi-Speciality Hospitals"
+        },
+        "footer": {
+            "desc": "Next-generation RCM infrastructure engineered to accelerate cash flow and eliminate administrative friction for modern medical practices.",
+            "solutions": "Platform Solutions",
+            "company": "Company",
+            "get_in_touch": "Get In Touch",
+            "us_hq": "US Headquarters",
+            "me_office": "Middle East Office",
+            "rights": "© 2026 SBN Healthcare Solution. All Rights Reserved.",
+            "engineered": "ENGINEERED FOR EXCELLENCE IN HEALTHCARE REVENUE CYCLE MANAGEMENT"
+        },
+        "hero": {
+            "subheadline": "RCM Excellence",
+            "title_line1": "Trusted Medical",
+            "title_line2": "Billing Services",
+            "title_line3": "That Put Your Practice First",
+            "desc": "You became a healthcare provider to care for patients, not to chase insurance companies, decode claim rejections, or spend hours buried in billing paperwork. At SBN Healthcare Solution, we handle all of that for you.",
+            "get_started": "Get Started",
+            "hipaa": "HIPAA Compliant",
+            "us_support": "US-Based Support",
+            "experience": "14+ Years Experience",
+            "explore": "Explore Platform"
+        },
+        "what_we_do": {
+            "tag": "What We Do",
+            "title_line1": "Complete Healthcare Billing Services,",
+            "title_line2": "From Intake to Payment",
+            "desc": "We manage your entire revenue cycle so you do not have to. Think of us as your dedicated billing department — without the overhead.",
+            "explore": "Explore Service",
+            "s1_title": "Revenue Cycle Management Services",
+            "s1_desc": "We oversee every phase: patient registration, insurance verification, charge entry, claim submission, payment posting, and reporting.",
+            "s2_title": "Medical Billing Services",
+            "s2_desc": "All claims are submitted within 48 hours of charge receipt. Every claim goes through thorough scrubbing before submission to ensure a high first-pass acceptance rate and faster reimbursements.",
+            "s3_title": "Medical Coding Services",
+            "s3_desc": "Our certified coders apply the most accurate ICD-10, CPT, and HCPCS codes to every claim. Proper coding means fewer denials, better compliance, and maximum reimbursement.",
+            "s4_title": "AR Follow-Up Services",
+            "s4_desc": "Unpaid claims don’t just sit in a queue. Our AR specialists actively track, follow up, and appeal every outstanding claim — keeping your cash flow steady.",
+            "s5_title": "Specialty-Specific Billing",
+            "s5_desc": "Whether you’re in behavioral health, DME, orthopedics, urgent care, telehealth, or running a multi-specialty hospital, our team knows your specialty’s payer rules and compliance requirements."
+        },
+        "about_us_page": {
+            "tag": "Who We Are & How We Work",
+            "title": "We Build Reliable Medical Billing Systems",
+            "subtitle": "We're not just a vendor. We are your revenue partners.",
+            "core_team": "The Core Team",
+            "leadership": "Leadership That Understands Your Problems",
+            "ceo_role": "Founder & CEO",
+            "ceo_desc": "With over 10 years of experience in healthcare revenue cycle management, Iftikhar founded SBN Healthcare to solve the operational gaps that cause practices to lose money. His approach focuses on building robust systems rather than just completing tasks.",
+            "coo_role": "Co-founder & COO",
+            "coo_desc": "Nematullah brings extensive operational expertise, ensuring that SBN’s backend processes run flawlessly. He oversees the implementation of scalable workflows that reduce errors and accelerate cash flow for medical facilities.",
+            "intro_p1": "Let’s be honest, most healthcare billing systems are messy. Too many gaps, too many delays, and way too many denials.",
+            "intro_p2": "That’s exactly why SBN Healthcare matters. Founded in 2021, we’re not here just to “do billing.” We focus on building proper, structured revenue systems that actually work in real life.",
+            "mission_title": "Our Mission",
+            "mission_desc": "To eliminate administrative friction and revenue leakage for healthcare providers through structured, performance-driven billing systems.",
+            "vision_title": "Our Vision",
+            "vision_desc": "A healthcare industry where providers focus entirely on patient care, knowing their financial operations are fully optimized and secure.",
+            "do_title": "What We Actually Do",
+            "do_desc": "We connect the full revenue cycle, not just one part of it.",
+            "do_tag": "Focus Areas",
+            "work_title": "How We Work",
+            "work_desc": "No chaos. No guesswork. Just a clear system.",
+            "work_tag": "Operations",
+            "choose_title": "Why Choose Us",
+            "choose_desc": "We deliver performance-driven structured models.",
+            "choose_tag": "Differentiation",
+            "proven_tag": "Proven Performance",
+            "proven_title": "Real Results from Real Practices",
+            "proven_desc": "See how structural changes directly impact financial and operational efficiency.",
+            "faq_title": "FAQs & Information",
+            "cta_title": "Ready to fix your revenue cycle?",
+            "cta_desc": "Stop losing money to inefficient billing. Let’s build a system that works.",
+            "cta_btn": "Book a Strategy Call",
+            "focusAreas": [
+                {
+                    "t": "Fixing inefficiencies in billing"
+                },
+                {
+                    "t": "Reducing denial rates"
+                },
+                {
+                    "t": "Improving cash flow visibility"
+                },
+                {
+                    "t": "Keeping everything compliant"
+                }
+            ],
+            "operationsLookLike": [
+                {
+                    "t": "Standard workflows"
+                },
+                {
+                    "t": "Multiple quality checks"
+                },
+                {
+                    "t": "Controlled data access"
+                },
+                {
+                    "t": "Continuous performance tracking"
+                }
+            ],
+            "makesUsDifferent": [
+                {
+                    "t": "We focus on systems, not just tasks"
+                },
+                {
+                    "t": "Everything is performance-driven"
+                },
+                {
+                    "t": "Compliance is built in"
+                },
+                {
+                    "t": "Models are scalable"
+                },
+                {
+                    "t": "Work is transparent"
+                }
+            ],
+            "faqs": [
+                {
+                    "q": "What services does SBN Healthcare offer?",
+                    "a": "Complete revenue cycle support including billing, coding, denial management, and workflow optimization."
+                },
+                {
+                    "q": "How can I book an appointment with SBN Healthcare online?",
+                    "a": "You can easily schedule a consultation through the website."
+                },
+                {
+                    "q": "What insurance plans are accepted by SBN Healthcare providers?",
+                    "a": "We work with multiple payer systems based on client needs."
+                },
+                {
+                    "q": "Where is the nearest SBN Healthcare facility located?",
+                    "a": "We operate globally and provide services remotely with structured systems."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "clientType": "Multi-Specialty Medical Group",
+                    "description": "A large practice struggling with aging A/R and high denial rates due to manual billing processes.",
+                    "metrics": [
+                        {
+                            "label": "Additional Revenue",
+                            "value": "+$1.2M",
+                            "description": "Recovered in first 6 months"
+                        },
+                        {
+                            "label": "Denial Rate Reduction",
+                            "value": "40%",
+                            "description": "From initial submissions"
+                        },
+                        {
+                            "label": "A/R Days Decrease",
+                            "value": "25 Days",
+                            "description": "Faster payment cycles"
+                        }
+                    ],
+                    "beforeAfter": [
+                        {
+                            "feature": "Claim Scrubbing",
+                            "before": "Manual reviews leading to errors",
+                            "after": "Automated standard checks (99% clean)"
+                        },
+                        {
+                            "feature": "Denial Handling",
+                            "before": "Often ignored or written off",
+                            "after": "Immediate appeals and tracking"
+                        },
+                        {
+                            "feature": "Financial Visibility",
+                            "before": "Monthly static spreadsheets",
+                            "after": "Live performance dashboards"
+                        }
+                    ]
+                }
+            ],
+            "conventional": "Conventional Way",
+            "sbn_integration": "SBN Integration"
+        },
+        "contact_us_page": {
+            "tag": "Connect With Us",
+            "title_1": "Let’s Build a Better",
+            "title_2": "Revenue System",
+            "desc": "Stop losing money to inefficient billing processes. Contact us today for a free revenue cycle analysis and discover how much you could be saving."
+        },
+        "contact_details": {
+            "tag": "Get In Touch",
+            "title_1": "Ready to Start?",
+            "title_2": "Let's Talk.",
+            "desc": "We're here to help and answer any question you might have. We look forward to hearing from you.",
+            "email": "EMAIL US",
+            "us_support": "US SUPPORT",
+            "me_support": "MIDDLE EAST SUPPORT",
+            "us_hq": "US HEADQUARTERS",
+            "me_office": "MIDDLE EAST OFFICE"
+        },
+        "contact_form": {
+            "title_1": "Access the",
+            "title_2": "Free Guide",
+            "desc": "Join 500+ practices optimizing their revenue cycle today.",
+            "benefit_1": "Instant Access to the 12-page guide",
+            "benefit_2": "Real case studies & benchmark data",
+            "benefit_3": "Actionable workflow improvements",
+            "fullname": "Full Name",
+            "work_email": "Work Email",
+            "practice_name": "Practice Name",
+            "claim_volume": "Monthly Claim Volume",
+            "optional": "(OPTIONAL)",
+            "btn_loading": "Generating...",
+            "btn_submit": "Get Immediate Access",
+            "trust_1": "100% Data Privacy & Security.",
+            "trust_2": "We don't spam or share your information."
+        },
+        "pricing_page": {
+            "tag": "Pricing Philosophy",
+            "title_1": "We Don't Just Bill.",
+            "title_2": "We Build",
+            "title_3": "Revenue.",
+            "desc": "Flexible, performance-driven models designed to scale with your practice.",
+            "overview_title_1": "OUR PRICING",
+            "overview_title_2": "PHILOSOPHY",
+            "overview_desc": "We align our success with yours. No hidden fees. No rigid contracts.",
+            "overview_btn": "Get a Custom Quote",
+            "card_1_h": "Transparency",
+            "card_1_p": "Clear, upfront pricing structures.",
+            "card_2_h": "Performance",
+            "card_2_p": "We make money when you make money.",
+            "card_3_h": "Flexibility",
+            "card_3_p": "Models that adapt to your practice volume.",
+            "models_tag": "PRICING MODELS",
+            "models_title": "FLEXIBLE STRUCTURES",
+            "models_desc": "Choose the model that aligns with your current operational needs.",
+            "base_inclusions": "BASE INCLUSIONS",
+            "base_desc": "What's included in every model, standard.",
+            "financial_roi": "FINANCIAL ROI",
+            "financial_desc": "The measurable impact we bring to your bottom line.",
+            "takeaways_q": "QUICK",
+            "takeaways_title": "TAKEAWAYS",
+            "info_center": "INFO CENTER",
+            "cta_title_1": "Ready to Optimize",
+            "cta_title_2": "Your Revenue?",
+            "cta_desc": "Get a custom pricing proposal tailored to your practice size and specialty.",
+            "cta_btn": "Request Proposal",
+            "pricingModels": [
+                {
+                    "title": "Performance-Based Pricing (Per Claim / Collection)",
+                    "desc": "A flexible, scalable model where you pay based on actual performance.",
+                    "bestFor": "Small to mid-sized practices",
+                    "points": [
+                        "Pay per claim or percentage of collections",
+                        "Scales as your volume grows",
+                        "No fixed overhead",
+                        "Fully performance-driven"
+                    ],
+                    "footer": "This is one of the most common pricing strategy types used in growing businesses."
+                },
+                {
+                    "title": "Dedicated Billing Team Model",
+                    "desc": "A complete team working only for your practice.",
+                    "bestFor": "Mid to large practices",
+                    "points": [
+                        "Dedicated billing experts",
+                        "Smooth, consistent workflows",
+                        "Full control over operations",
+                        "Predictable monthly cost"
+                    ],
+                    "footer": "Similar to structured pricing methods and strategies used in long-term operations."
+                },
+                {
+                    "title": "Enterprise RCM Partnership Model",
+                    "desc": "Fully customized pricing for complex and high-volume setups.",
+                    "bestFor": "Multi-location or enterprise providers",
+                    "points": [
+                        "Custom pricing based on complexity",
+                        "Multi-specialty support",
+                        "System integration",
+                        "Performance-focused optimization"
+                    ],
+                    "footer": "This reflects advanced pricing strategies with examples used by large organizations."
+                }
+            ],
+            "includedBenefits": [
+                {
+                    "title": "Complete Revenue Cycle Management",
+                    "desc": "End-to-end support"
+                },
+                {
+                    "title": "Eligibility & Benefits Verification",
+                    "desc": "Accurate patient validation"
+                },
+                {
+                    "title": "Medical Billing and Coding",
+                    "desc": "Clean, error-free workflows"
+                },
+                {
+                    "title": "Claims Submission & Follow-Up",
+                    "desc": "Faster reimbursements"
+                },
+                {
+                    "title": "Denial Management & Recovery",
+                    "desc": "Reduced revenue leakage"
+                },
+                {
+                    "title": "Real-Time Reporting",
+                    "desc": "Clear performance tracking"
+                },
+                {
+                    "title": "Compliance-Aligned Workflows",
+                    "desc": "Safe and structured processes"
+                }
+            ],
+            "financialOutcomes": [
+                {
+                    "title": "Higher Net Collections",
+                    "desc": "You earn what you deserve"
+                },
+                {
+                    "title": "Reduced A/R Days",
+                    "desc": "Faster cash flow"
+                },
+                {
+                    "title": "Lower Denial Rates",
+                    "desc": "Fewer errors, better claims"
+                },
+                {
+                    "title": "Improved Efficiency",
+                    "desc": "Less waste, more output"
+                }
+            ],
+            "takeaways": [
+                "Pricing should align with performance",
+                "Flexible models = better growth",
+                "ROI matters more than cost",
+                "Scalable pricing supports long-term success",
+                "Right strategy = stronger revenue"
+            ],
+            "faqs": [
+                {
+                    "q": "Do you offer customized pricing?",
+                    "a": "Yes, everything is tailored based on your size, specialty, and workflows."
+                },
+                {
+                    "q": "Is there a long-term contract?",
+                    "a": "No rigid contracts — we keep things flexible."
+                },
+                {
+                    "q": "How is pricing calculated?",
+                    "a": "It depends — claim volume, collections, or dedicated team structure."
+                },
+                {
+                    "q": "Will pricing change as we grow?",
+                    "a": "Yes, but in a way that supports your growth, not hurts it."
+                }
+            ]
+        },
+        "services_page": {
+            "tag": "Comprehensive Solutions",
+            "title_1": "More Solutions for Easy",
+            "title_2": "Revenue Cycle Management",
+            "hero_desc": "Discover more solutions for full RCM support. Reduce errors, improve cash flow, and manage your billing process in a simple and smooth way.",
+            "intro_1": "Healthcare billing is rarely simple. <span class=\"text-[#0033e7]\">But it should be.</span>",
+            "intro_2": "We've built our services to remove the friction between providing care and getting paid. Every solution we offer is designed to address a specific breakdown in the traditional revenue cycle.",
+            "intro_3": "Stop accepting high denial rates and delayed payments as the standard. It's time for a system that works.",
+            "wwd_tag": "What We Do",
+            "wwd_title": "CORE CAPABILITIES",
+            "wwd_desc": "We handle the complexity of modern healthcare billing so you don't have to. Our core capabilities cover every stage of the revenue cycle.",
+            "wwd_c1_title": "End-to-End Billing",
+            "wwd_c1_desc": "Full cycle management from claim creation to final payment resolution.",
+            "wwd_c2_title": "Coding Accuracy",
+            "wwd_c2_desc": "Certified coders ensuring maximum compliance and optimal reimbursement.",
+            "wwd_c3_title": "Denial Recovery",
+            "wwd_c3_desc": "Aggressive follow-up and appeals to recover lost revenue.",
+            "wwd_c4_title": "Financial Reporting",
+            "wwd_c4_desc": "Clear, actionable insights into your practice's financial health.",
+            "specific_title": "SPECIFIC SOLUTIONS",
+            "deep_dive": "DEEP DIVE",
+            "why_title_1": "WHY CHOOSE",
+            "why_title_2": "SBN",
+            "why_desc": "We don't just process claims. We engineer revenue operations that scale.",
+            "why_p1": "99% First-Pass Clean Claim Rate",
+            "why_p2": "Average 20% Increase in Cash Flow",
+            "why_p3": "Reduction in A/R Days by 30%",
+            "why_p4": "100% HIPAA Compliant Operations",
+            "what_get_title_1": "WHAT YOU",
+            "what_get_title_2": "GET",
+            "what_get_desc": "When you partner with us, you gain a dedicated extension of your practice.",
+            "what_get_c1": "DATA DRIVEN",
+            "what_get_c2": "FASTER PAYMENTS",
+            "what_get_c3": "FULL COMPLIANCE",
+            "what_get_c4": "SCALABLE SYSTEMS",
+            "what_get_footer_1": "Focus on Patient Care.",
+            "what_get_footer_2": "We'll Handle the Revenue.",
+            "services_data": {
+                "eligibility-verification": {
+                    "title": "Eligibility Verification",
+                    "desc": "Reduce claim denials with real-time checks and accurate eligibility verification."
+                },
+                "benefits-check": {
+                    "title": "Benefits Check",
+                    "desc": "Confirm co-pay, deductible, and coverage details before treatment starts."
+                },
+                "prior-authorization": {
+                    "title": "Prior Authorization",
+                    "desc": "Speed up approvals, reduce delays, and keep your billing process smooth."
+                },
+                "exclusion-check": {
+                    "title": "Exclusion Check",
+                    "desc": "Avoid penalties, reduce risk, and stay audit-ready with simple screening."
+                },
+                "patient-collections-ar-recovery": {
+                    "title": "Patient Collections & AR Recovery",
+                    "desc": "Make collections easy with quick follow-ups and faster A/R recovery."
+                },
+                "consulting": {
+                    "title": "Consulting",
+                    "desc": "Get practical consulting services to improve your revenue cycle."
+                }
+            }
+        },
+        "security_page": {
+            "tag": "HIPAA-Aligned | Secure Cloud Setup | Controlled Access",
+            "title": "Compliance & Security Services for Healthcare Systems",
+            "desc": "In healthcare, data security isn’t something you can take lightly. One small gap, and things can go wrong fast.",
+            "intro_title": "Enterprise-Grade Security That Actually Protects Your Data",
+            "intro_p1": "Our compliance & security system is built to keep patient data safe, control who accesses it, and make sure everything stays aligned with healthcare regulations.",
+            "intro_p2": "Whether you’re trying to understand security compliance standards or just want a safer system, this is where it starts.",
+            "intro_btn": "Request Compliance Documentation",
+            "takeaways_title": "Quick Takeaways",
+            "takeaways": [
+                "Security should be built in, not added later",
+                "Strong access control reduces risk",
+                "Monitoring = audit readiness",
+                "Process + technology = real security",
+                "Better systems = safer operations"
+            ],
+            "faq_title": "Frequently Asked Questions",
+            "faqs": [
+                {
+                    "q": "What is compliance & security in healthcare?",
+                    "a": "It means protecting patient data while following regulations like HIPAA."
+                },
+                {
+                    "q": "What are security compliance standards?",
+                    "a": "Rules that ensure systems and data remain secure."
+                },
+                {
+                    "q": "What is included in a security compliance checklist?",
+                    "a": "Access control, encryption, monitoring, audits, and risk management."
+                },
+                {
+                    "q": "Are security compliance jobs growing?",
+                    "a": "Yes, demand is increasing due to rising data security needs."
+                },
+                {
+                    "q": "What is a Security Compliance Officer salary?",
+                    "a": "It depends on experience but is generally high due to the role’s importance."
+                }
+            ],
+            "cta_title": "Work With a Secure and Compliant Partner",
+            "cta_desc": "If your system isn’t secure, it’s only a matter of time before issues show up. Let’s build something that actually protects your data and keeps you compliant.",
+            "cta_btn": "Schedule a Compliance Review",
+            "securityData": [
+                {
+                    "title": "Security Isn’t Added Later — It’s Built In",
+                    "desc": "A lot of systems treat security like an extra layer. That’s usually where problems begin. At SBN Healthcare, compliance & security is already part of the system — from workflows to data handling.",
+                    "points": [
+                        {
+                            "t": "Built Into Every Step",
+                            "p": "Security is part of the process, not an add-on"
+                        },
+                        {
+                            "t": "Less Risk, More Control",
+                            "p": "We reduce exposure wherever possible"
+                        },
+                        {
+                            "t": "Clear Accountability",
+                            "p": "Everyone knows what they can access and why"
+                        }
+                    ],
+                    "footer": "Real compliance & security examples show that systems fail when security is treated as an afterthought."
+                },
+                {
+                    "title": "Aligned with HIPAA and Industry Standards",
+                    "desc": "We follow strict security compliance standards so patient data stays protected at every level.",
+                    "points": [
+                        {
+                            "t": "PHI Protection Across Workflows",
+                            "p": "Data stays secure from start to finish"
+                        },
+                        {
+                            "t": "Proper Safeguards in Place",
+                            "p": "Both technical and administrative controls"
+                        },
+                        {
+                            "t": "Secure Record Handling",
+                            "p": "No unnecessary exposure"
+                        },
+                        {
+                            "t": "Always Updated",
+                            "p": "We stay aligned with changing regulations"
+                        }
+                    ],
+                    "footer": "These are practical security compliance examples used in real healthcare systems."
+                },
+                {
+                    "title": "Secure Cloud Infrastructure (No Loose Ends)",
+                    "desc": "Everything runs in a controlled cloud setup — not open, not exposed.",
+                    "points": [
+                        {
+                            "t": "Restricted Access Only",
+                            "p": "Not everyone gets in"
+                        },
+                        {
+                            "t": "Separate Environments",
+                            "p": "Workflows stay isolated and safe"
+                        },
+                        {
+                            "t": "No Public Exposure",
+                            "p": "Sensitive data isn’t visible outside"
+                        },
+                        {
+                            "t": "Continuous Monitoring",
+                            "p": "We keep an eye on everything"
+                        }
+                    ],
+                    "footer": "A proper security compliance checklist always starts with infrastructure security."
+                },
+                {
+                    "title": "Access Control That Actually Makes Sense",
+                    "desc": "Not everyone should see everything — simple. We control access based on roles and responsibilities.",
+                    "points": [
+                        {
+                            "t": "Role-Based Access (RBAC)",
+                            "p": "Access depends on your role"
+                        },
+                        {
+                            "t": "Limited Visibility",
+                            "p": "Only required data is visible"
+                        },
+                        {
+                            "t": "Activity Monitoring",
+                            "p": "We track usage and sessions"
+                        },
+                        {
+                            "t": "Instant Access Removal",
+                            "p": "No lingering permissions"
+                        }
+                    ],
+                    "footer": "This is exactly what professionals in security compliance jobs deal with daily."
+                },
+                {
+                    "title": "Safe Data Handling & Encryption",
+                    "desc": "Data is protected whether it’s being used, stored, or transferred.",
+                    "points": [
+                        {
+                            "t": "Encrypted Data Transfer (TLS)",
+                            "p": "No unsecured movement"
+                        },
+                        {
+                            "t": "Protected Processing",
+                            "p": "Everything happens in controlled environments"
+                        },
+                        {
+                            "t": "No Unsecured Sharing",
+                            "p": "Strict handling rules"
+                        },
+                        {
+                            "t": "Structured Workflows",
+                            "p": "Nothing random, everything defined"
+                        }
+                    ],
+                    "footer": "These are core parts of any security compliance certification."
+                },
+                {
+                    "title": "No Random Third-Party Access",
+                    "desc": "We don’t allow unnecessary external access — that’s where most risks come from.",
+                    "points": [
+                        {
+                            "t": "No Open Data Sharing",
+                            "p": "Data isn’t exposed to outside systems"
+                        },
+                        {
+                            "t": "Controlled Integrations Only",
+                            "p": "APIs are secure and limited"
+                        },
+                        {
+                            "t": "Vendor Restrictions",
+                            "p": "Third-party access is tightly controlled"
+                        },
+                        {
+                            "t": "Need-Based Access Only",
+                            "p": "No extra permissions"
+                        }
+                    ],
+                    "footer": "Many real-world compliance & security examples fail exactly at this point."
+                },
+                {
+                    "title": "Monitoring, Logging & Audit Readiness",
+                    "desc": "If something happens, you should be able to track it — clearly.",
+                    "points": [
+                        {
+                            "t": "Activity Logs",
+                            "p": "Everything is recorded"
+                        },
+                        {
+                            "t": "Access Tracking",
+                            "p": "Who accessed what and when"
+                        },
+                        {
+                            "t": "Audit-Ready Data",
+                            "p": "Prepared for reviews anytime"
+                        },
+                        {
+                            "t": "Regular Checks",
+                            "p": "We don’t just set it and forget it"
+                        }
+                    ],
+                    "footer": "This level of tracking is expected in advanced security compliance certification setups."
+                },
+                {
+                    "title": "Security Isn’t Just Tech — It’s Process Too",
+                    "desc": "Even the best systems fail if processes aren’t strong. We focus on both.",
+                    "points": [
+                        {
+                            "t": "Structured Workflows",
+                            "p": "No guesswork"
+                        },
+                        {
+                            "t": "Controlled Environments",
+                            "p": "Safe handling always"
+                        },
+                        {
+                            "t": "Multi-Level Checks",
+                            "p": "Errors are caught early"
+                        },
+                        {
+                            "t": "Standard Processes",
+                            "p": "Consistency matters"
+                        }
+                    ],
+                    "footer": "This is where many security compliance jobs actually operate."
+                },
+                {
+                    "title": "Risk Management (Before Problems Happen)",
+                    "desc": "We focus on preventing issues, not just fixing them later.",
+                    "points": [
+                        {
+                            "t": "Less Manual Handling",
+                            "p": "Fewer chances of error"
+                        },
+                        {
+                            "t": "Controlled Exposure",
+                            "p": "Data stays protected"
+                        },
+                        {
+                            "t": "Continuous Monitoring",
+                            "p": "Always watching for risks"
+                        },
+                        {
+                            "t": "Ongoing Improvements",
+                            "p": "System keeps getting better"
+                        }
+                    ],
+                    "footer": "This is why roles linked to Security Compliance Officer salary are high — the responsibility is huge."
+                }
+            ]
+        },
+        "rcm_calculator": {
+            "tag": "No Obligation | Instant Insights | Data-Driven Estimates",
+            "title": "RCM Calculator – Estimate Your Revenue Loss & Recovery Potential",
+            "desc": "Let’s be honest — most practices don’t even realize how much revenue they’re losing every month. This RCM calculator helps you quickly understand where your money is leaking and how much you can recover with better systems.",
+            "tool_tag": "Interactive Tool",
+            "tool_title": "Estimate Your Revenue Loss and Recovery Potential",
+            "tool_desc": "Add your basic details below and get instant estimates.",
+            "meanings_title": "What These Numbers Actually Mean",
+            "meanings_desc": "These numbers aren’t just estimates — they reflect real issues inside your billing process. High denial rates, delayed reimbursements, and weak verification systems all contribute to revenue loss.",
+            "m1_t": "Denial Impact",
+            "m1_p": "Even a small % denial affects total revenue",
+            "m2_t": "Workflow Gaps",
+            "m2_p": "Inefficiencies reduce collections",
+            "m3_t": "Optimization Opportunity",
+            "m3_p": "Better systems = better revenue",
+            "why_title": "Why Practices Use Our RCM Calculator",
+            "why_desc": "Our calculator is designed specifically for healthcare revenue complexity, unlike generic tools.",
+            "w1_t": "Identify Hidden Revenue Leakage",
+            "w1_p": "Spot losses you didn’t even know existed",
+            "w2_t": "Understand Denial Impact",
+            "w2_p": "See how denials affect your income",
+            "w3_t": "Improve Billing Efficiency",
+            "w3_p": "Fix process gaps",
+            "w4_t": "Increase Net Collections",
+            "w4_p": "Maximize what you earn",
+            "form_title": "Get a Detailed Revenue Analysis",
+            "form_desc": "Want more than just estimates? We can give you a deeper breakdown of your revenue cycle and exactly where you’re losing money.",
+            "form_name": "Full Name",
+            "form_email": "Email Address",
+            "form_practice": "Practice / Facility Name",
+            "form_revenue": "Monthly Revenue (Optional)",
+            "form_btn": "Request Detailed Report",
+            "form_processing": "Processing...",
+            "takeaways_title": "Quick Takeaways",
+            "t1": "Small inefficiencies = big revenue loss",
+            "t2": "Denials directly impact income",
+            "t3": "Recovery potential is often higher than expected",
+            "t4": "Data-driven insights improve decisions",
+            "t5": "Optimized workflows = higher collections",
+            "faq_title": "Common Questions",
+            "fq1": "What is an RCM calculator?",
+            "fa1": "It is a tool that helps estimate revenue, losses, and recovery opportunities in healthcare billing.",
+            "fq2": "How accurate are the results?",
+            "fa2": "They are estimates based on your inputs, but useful for identifying trends.",
+            "fq3": "Can this improve my revenue?",
+            "fa3": "Yes, by identifying gaps and opportunities for optimization.",
+            "fq4": "Is this similar to military pay calculators?",
+            "fa4": "No, tools like military pay calculator deployment or 2026 military pay chart calculator with BAH are unrelated to healthcare.",
+            "fq5": "Do I need technical knowledge to use it?",
+            "fa5": "Not at all — just enter basic details and get results instantly.",
+            "cta_title": "Start Understanding Your Revenue Today",
+            "cta_desc": "If you’re not tracking your revenue loss, you’re already behind. Use this RCM calculator to get clarity — and take the first step toward better financial performance. Better insights = better decisions = better revenue.",
+            "cta_btn": "Start Your Free Analysis",
+            "calc_data": "System Data",
+            "calc_profile": "Practice Profile",
+            "calc_profile_desc": "Adjust the sliders to reflect your current practice metrics for a high-precision ROI analysis.",
+            "calc_claims": "Monthly Claim Volume",
+            "calc_units_min": "100 Units",
+            "calc_units_max": "10,000+ Units",
+            "calc_avg": "Avg. Revenue per Encounter",
+            "calc_di": "Current Denial Index (D.I.)",
+            "calc_di_opt": "1% (Optimal)",
+            "calc_di_crit": "40% (Critical Alert)",
+            "calc_gross": "Gross Monthly Revenue",
+            "calc_report": "Impact Report",
+            "calc_financial": "Financial Recovery Potential",
+            "calc_baseline": "Baseline Yearly Revenue Leakage",
+            "calc_high_exp": "High Exposure",
+            "calc_sbn": "SBN Projected Recovery (65% Target)",
+            "calc_audit": "Execute Full Audit",
+            "calc_confidential": "Confidential Consultation Included"
+        },
+        "career_page": {
+            "header_title": "Join Our High-Performance Team",
+            "header_subtitle": "Future of Healthcare",
+            "header_desc": "Our people are our greatest asset. We value ambitious go-getters who are ready to provide the best career experience in the healthcare billing industry.",
+            "join_title": "Join our team",
+            "join_desc": "We are a high-performance organization. And we value ambitious go-getters.<br /><br />Be it our award-winning people practices, world-class training programs, attractive benefits, or state-of-the-art offices, we ensure we provide the best career experience to our employees. We always have openings for AR, Payment Posting & Charge Entry.<br /><br />email your resume at <a href=\"mailto:info@sbnhealthcaresolution.com\" className=\"text-blue-600 font-semibold no-underline transition-colors hover:text-blue-800 hover:underline\">Info@sbnhealthcaresolution.com</a> will get back to you within 24 hours."
+        },
+        "resources_page": {
+            "tag": "Premium Resource Guide",
+            "title": "The Hidden",
+            "title_highlight": "Revenue Leakage",
+            "title_rest": "in Your Revenue Cycle | Resource Guide",
+            "desc": "Healthcare organizations today are not struggling with volume. They are struggling with visibility. This is where the right resource becomes important.",
+            "reality_title": "The Reality of Revenue Leakage",
+            "reality_desc": "Revenue leakage does not happen in one place. It happens quietly across the entire revenue cycle. Small issues often go unnoticed, but over time, they lead to serious financial loss.",
+            "reality_alert": "Identify common failures like missed eligibility checks, delayed submissions, and repeated denials before they impact your bottom line.",
+            "where_title": "Where It Typically Starts",
+            "where_points": [
+                "Incomplete or inaccurate eligibility verification",
+                "Coding inconsistencies across providers and specialties",
+                "Lack of real-time claim validation",
+                "Reactive denial management instead of fixing the root cause"
+            ],
+            "why_title": "Why It Matters",
+            "why_desc": "These gaps do more than delay payments. They affect how smoothly your operations run. Without the right resource, problems keep repeating. Practices face longer A/R cycles, workload increases, and reimbursement accuracy goes down.",
+            "why_alert": "This is why many providers look for the best resource medical billing service for small clinics to stabilize their cash flow.",
+            "why_btn": "Get Fix Audit",
+            "diff_title": "What High-Performing Organizations Do Differently",
+            "diff_points": [
+                {
+                    "t": "Real-time Validation",
+                    "p": "They use real-time eligibility and data validation."
+                },
+                {
+                    "t": "Structured Workflows",
+                    "p": "They follow structured and audit-ready coding workflows."
+                },
+                {
+                    "t": "Proactive Fixes",
+                    "p": "They fix denial issues before they happen."
+                },
+                {
+                    "t": "Timely Submissions",
+                    "p": "They submit claims on time, every time."
+                }
+            ],
+            "diff_footer": "They also understand how to choose a resource medical billing service for my practice.",
+            "result_title": "The Result",
+            "result_stats": [
+                "Efficient",
+                "Predictable",
+                "Scalable",
+                "Financially Strong"
+            ],
+            "result_desc": "A revenue cycle that is efficient. With the right resource, practices gain better control and stability.",
+            "result_footer": "The right resource for small clinics"
+        },
+        "privacy_page": {
+            "title": "Privacy Policy",
+            "heading": "Privacy Policy Disclosure",
+            "p1": "<strong>Uses and Disclosures of Protected Health Information</strong><br />Your protected health information may be used and disclosed by your physician, our office staff and others outside of our office who are involved in your care and treatment for the purpose of providing health care services to you. Your protected health information may also be used and disclosed to pay your health care bills and to support the operation of your physician’s practice.",
+            "p2": "Following are examples of the types of uses and disclosures of your protected health information that your physician’s office is permitted to make. These examples are not meant to be exhaustive, but to describe the types of uses and disclosures that may be made by our office.",
+            "p3": "<strong>Treatment:</strong> We will use and disclose your protected health information to provide, coordinate, or manage your health care and any related services. This includes the coordination or management of your health care with another provider. For example, we would disclose your protected health information, as necessary, to a home health agency that provides care to you.",
+            "p4": "We will also disclose protected health information to other physicians who may be treating you.",
+            "p5": "For example, your protected health information may be provided to a physician to whom you have been referred to ensure that the physician has the necessary information to diagnose or treat you. In addition, we may disclose your protected health information from time-to-time to another physician or health care provider (e.g., a specialist or laboratory) who, at the request of your physician, becomes involved in your care by providing assistance with your health care diagnosis or treatment to your physician.",
+            "p6": "<strong>Payment:</strong> Your protected health information will be used and disclosed, as needed, to obtain payment for your health care services provided by us or by another provider.",
+            "p7": "This may include certain activities that your health insurance plan may undertake before it approves or pays for the health care services we recommend for you such as: making a determination of eligibility or coverage for insurance benefits, reviewing services provided to you for medical necessity, and undertaking utilization review activities. For example, obtaining approval for a hospital stay may require that your relevant protected health information be disclosed to the health plan to obtain approval for the hospital admission.",
+            "p8": "<strong>INFORMATION THAT IS GATHERED FROM VISITORS/USERS</strong>",
+            "p9": "In common with other websites, mobile applications, log files are stored on the web server saving details such as the visitor's/user’s IP address, browser type, location, referring page, and time and duration of visit.",
+            "p10": "Cookies* may be used to remember visitor preferences when interacting with the website.",
+            "p11": "Where registration is required, the visitor's email and a username will be stored on the server.",
+            "p12": "<strong>HOW THE INFORMATION IS USED</strong>",
+            "p13": "The information is used to enhance the visitor experience when using the website to display personalized content and possibly advertising.",
+            "p14": "E-mail addresses will not be sold, rented, or leased to 3rd parties.",
+            "p15": "E-mail may be sent to inform you of news of our services or offers by us or our affiliates.",
+            "p16": "<strong>WHAT IS PERSONAL INFORMATION?</strong>",
+            "p17": "For the purposes of this privacy statement, 'Personal Information' shall mean and include any data which relates to an individual, that can be used to identify such individual, which is in possession of SBN Healthcare Solution. We collect, process, and use the Personal Information that is provided via our website, including information you provide when you register on our website, for example, name, email address, and telephone number, etc.",
+            "p18": "1) Use of your Personal Information",
+            "p19": "We use your Personal Information for the following purposes:<br />a) to create your user ID;<br />b) to contact you and respond to your questions or requests; and<br />c) to process job applications.",
+            "p20": "2) Data recipients, transfer, and disclosure of Personal Information:",
+            "p21": "SBN Healthcare does not share your Personal Information for any commercial/marketing purposes. We share your Personal Information within the below groups, on a need-to-know basis.<br />a) SBN Healthcare or with any of its subsidiaries;<br />b) Vendors;<br />c) Authorized third-party agents; or<br />d) Contractors.",
+            "p22": "3) Data Security<br />SBN Healthcare has adopted reasonable and appropriate security practices and procedures including administrative, physical security, and technical controls in order to safeguard your Personal Information.",
+            "p23": "4) Data Retention and Deletion<br />Personal Data will not be retained for a period more than necessary to fulfil the purposes outlined in this privacy statement unless a longer retention period is required by law or for directly related legitimate business purposes.",
+            "p24": "Users may request permanent deletion of their Personal Data from our referral records by sending a request to info@sbnhealthcaresolution.com from their registered email ID.",
+            "p25": "5) Amendments<br />SBN Healthcare may update or modify this privacy statement as and when required, at its discretion",
+            "p26": "<strong>VISITOR OPTIONS</strong><br />If you have subscribed to one of our services, you may unsubscribe by following the instructions which are included in the email you receive.",
+            "p27": "You may be able to block cookies via your browser settings but this may prevent you from access to certain features of the website.<br />*Cookies are small digital signature files that are stored by your web browser that allow your preferences to be recorded when visiting the website. Also, they may be used to track your return visits to the website."
+        },
+        "blog_page": {
+            "header_title": "Blog & Insights",
+            "header_subtitle": "Thought Leadership",
+            "header_desc": "Expert analysis, industry trends, and strategic guides designed to empower healthcare providers in the modern financial landscape.",
+            "empty_title": "Stay Tuned",
+            "empty_desc": "More expert insights are coming soon!",
+            "read_article": "Read Article"
+        },
+        "process_flow": {
+            "tag": "The Problem We Solve",
+            "title": "Is Your Practice Losing Revenue Without Even Knowing It?",
+            "desc1": "Many healthcare providers are leaving thousands of dollars on the table every month — not because of poor care, but because of billing gaps that quietly drain their revenue.",
+            "desc2": "The culprits are often invisible until it’s too late:",
+            "c1": "Missed claim deadlines",
+            "c2": "Incorrect codes",
+            "c3": "Denied claims with no follow-up",
+            "c4": "Eligibility errors caught too late",
+            "footer1": "These are not small problems. They add up fast. That’s where SBN comes in.",
+            "footer2": "Our fully outsourced billing services are designed to close every one of those gaps",
+            "footer3": " — from the moment a patient books an appointment to the day the payment hits your account. No leakage. No guesswork. No surprises."
+        },
+        "office_operations": {
+            "tag": "Why Providers Choose SBN",
+            "title": "We Treat Your Revenue Like Our Own",
+            "desc": "There are many billing companies out there. Here’s why healthcare providers across the USA choose SBN — and stay with us:",
+            "watermark": "SBN Global Center",
+            "r1_t": "14+ Years of Hands-On Experience",
+            "r1_d": "We’ve seen every billing scenario",
+            "r2_t": "200+ Dedicated Billing Specialists",
+            "r2_d": "Real experts on your claims, not just software",
+            "r3_t": "98% First-Pass Claim Acceptance Rate",
+            "r3_d": "Fewer rejections, faster payments",
+            "r4_t": "Claims Submitted Within 48 Hours",
+            "r4_d": "No delays, no backlogs",
+            "r5_t": "Compatible with 50+ EMR/EHR Platforms",
+            "r5_d": "Seamless integration with your systems",
+            "r6_t": "Full Transparency and Reporting",
+            "r6_d": "You always know where your money stands",
+            "r7_t": "HIPAA-Compliant Operations",
+            "r7_d": "Your patient data is always protected"
+        },
+        "stats_section": {
+            "tag": "Results Our Clients Have Seen",
+            "title": "Real Practices. Real Results.",
+            "desc": "Our clients don’t just get better billing — they get measurable outcomes:",
+            "s1_v": "20%",
+            "s1_l": "Average Revenue Improvement",
+            "s1_d": "Increase in overall collected revenue",
+            "s2_v": "40%",
+            "s2_l": "Reduction in Operational Costs",
+            "s2_d": "Decrease in overhead and administrative expenses",
+            "s3_v": "35%",
+            "s3_l": "Reduction in A/R Days",
+            "s3_d": "Faster turnaround on accounts receivable",
+            "s4_v": "$1.2M+",
+            "s4_l": "Revenue Recovered",
+            "s4_d": "Recovered for a single pediatric group"
+        },
+        "testimonials_section": {
+            "tag": "Proof of Success",
+            "title": "Trusted by High-Performance Practices",
+            "t1_name": "Dr. Sarah Mitchell",
+            "t1_title": "Medical Director",
+            "t1_practice": "Mitchell Family Practice",
+            "t1_metric": "90 Days",
+            "t1_metricLabel": "To See Impact",
+            "t1_quote": "SBN Healthcare transformed our revenue cycle. We saw an immediate impact on cash flow within the first 90 days.",
+            "t2_name": "James Wilson",
+            "t2_title": "Practice Administrator",
+            "t2_practice": "Oakwood Orthopedics",
+            "t2_metric": "100%",
+            "t2_metricLabel": "Transparency",
+            "t2_quote": "The level of transparency SBN provides is unmatched. We finally feel like we have a partner who is as invested in our financial success as we are."
+        },
+        "faq_section": {
+            "tag": "Frequently Asked Questions",
+            "title": "Got Questions? We Have Answers.",
+            "q1": "What exactly are Medical Billing Services and do I really need them?",
+            "a1": "Medical Billing Services handle the entire process of submitting claims and following up until your practice gets paid. Most practices that outsource billing recover 15–25% more revenue within their first quarter.",
+            "q2": "How is SBN different from other billing companies?",
+            "a2": "Most billing companies process claims and move on. SBN actively monitors every claim, follows up on denials, and provides transparent reporting — with 14+ years of experience and a 98% first-pass acceptance rate.",
+            "q3": "What does Revenue Cycle Management include?",
+            "a3": "Everything: patient eligibility verification, prior authorization, charge entry, coding, claim submission, payment posting, AR follow-up, and denial management — managed end-to-end.",
+            "q4": "Is outsourcing billing safe for my patient data?",
+            "a4": "Absolutely. SBN is fully HIPAA-compliant. All patient data is handled with strict security protocols, encrypted storage, and access controls.",
+            "q5": "How quickly are claims submitted?",
+            "a5": "Within 48 hours of receiving the charge. Every claim goes through our scrubbing process first to catch errors before submission.",
+            "q6": "Do you handle old unpaid claims?",
+            "a6": "Yes. Our AR team works on both current and aging claims — even ones that have been sitting for months. Many practices recover revenue they’d already written off.",
+            "q7": "Which specialties do you cover?",
+            "a7": "Behavioral Health, DME/Orthopedics, Urgent Care, Telehealth, and Multi-Specialty Hospitals — among others. Our team is trained in specialty-specific payer rules.",
+            "q8": "How much does it cost?",
+            "a8": "We offer a complete service package, per-transaction billing starting at $0.75/claim, FTE-based dedicated staff, and fully custom plans. Contact us for a free, no-obligation quote.",
+            "q9": "What coding services do you provide?",
+            "a9": "Our certified coders handle ICD-10, CPT, and HCPCS coding across all specialties — ensuring fewer denials, full reimbursement, and complete payer compliance.",
+            "q10": "How do I get started?",
+            "a10": "Book a free consultation. We’ll review your current billing process, identify revenue gaps, and recommend the right solution — with no pressure and no obligation.",
+            "cta_title": "Ready to recover more revenue?",
+            "cta_desc": "Contact SBN Healthcare Solution today for a free, no-obligation consultation.",
+            "cta_btn": "Get Free Consultation"
+        },
+        "pricing_section": {
+            "tag": "Pricing That Works for You",
+            "title_line1": "Flexible Plans Built Around",
+            "title_line2": "Your Practice",
+            "desc": "We understand that every practice is different. That’s why we offer multiple pricing models:",
+            "m1_title": "Complete Service Package",
+            "m1_desc": "Full billing management at one flat rate.",
+            "m2_title": "Per Transaction",
+            "m2_desc": "Pay-as-you-go, starting at .75/claim.",
+            "m3_title": "FTE Basis",
+            "m3_desc": "Dedicated staff for high-volume practices.",
+            "m4_title": "Custom Plan",
+            "m4_desc": "Tailored to your exact needs.",
+            "footer": "No hidden fees. No surprise lock-in clauses. Just straightforward pricing that scales with your practice.",
+            "btn": "Get Free Consultation"
+        },
+        "blog_detail": {
+            "default_category": "Insights",
+            "home": "Home",
+            "insights": "Insights",
+            "read_time": "5 Min Read",
+            "toc": "Inside this article",
+            "author_insight": "Author Insight",
+            "author_bio": "Expert insights on Healthcare Revenue Cycle Management and clinical operational efficiency. Our team provides the latest updates in medical billing and coding standards.",
+            "cta_title": "Ready to Scale Your Practice?",
+            "cta_desc": "Speak with an SBN platform specialist to discover how our Governance Framework can transform your Revenue Cycle.",
+            "cta_btn": "Get Expert Consultation",
+            "categories": "Article Categories",
+            "back": "Back to Core Insights"
+        }
+    },
+    "ar": {
+        "nav": {
+            "home": "الرئيسية",
+            "about_us": "معلومات عنا",
+            "solutions": "الحلول",
+            "specialties": "التخصصات",
+            "resources": "الموارد",
+            "compliance": "الامتثال والأمان",
+            "rcm_calculator": "حاسبة RCM",
+            "pricing": "التسعير",
+            "blog": "المدونة",
+            "contact_us": "اتصل بنا",
+            "eligibility_front_office": "الأهلية والمكتب الأمامي",
+            "benefits_check": "التحقق من الفوائد",
+            "prior_authorization": "تفويض مسبق",
+            "exclusion_check": "فحص الاستبعاد",
+            "patient_collections": "تحصيل المرضى واسترداد AR",
+            "consulting": "استشارات",
+            "more_solutions": "المزيد من الحلول",
+            "behavioral_health": "الصحة السلوكية",
+            "dme_orthopedics": "المعدات الطبية / جراحة العظام",
+            "urgent_care": "الرعاية العاجلة والخدمات الصحية عن بعد",
+            "small_mid_practices": "العيادات الصغيرة والمتوسطة",
+            "multi_speciality": "مستشفيات متعددة التخصصات"
+        },
+        "footer": {
+            "desc": "البنية التحتية من الجيل التالي لإدارة دورة الإيرادات مصممة لتسريع التدفق النقدي وإزالة الاحتكاك الإداري للممارسات الطبية الحديثة.",
+            "solutions": "حلول المنصة",
+            "company": "الشركة",
+            "get_in_touch": "ابقى على تواصل",
+            "us_hq": "المقر الرئيسي في الولايات المتحدة",
+            "me_office": "مكتب الشرق الأوسط",
+            "rights": "© ٢٠٢٦ SBN Healthcare Solution. كل الحقوق محفوظة.",
+            "engineered": "مصممة للتميز في إدارة دورة إيرادات الرعاية الصحية"
+        },
+        "hero": {
+            "subheadline": "التميز في إدارة دورة الإيرادات",
+            "title_line1": "خدمات فوترة",
+            "title_line2": "طبية موثوقة",
+            "title_line3": "تضع ممارستك في المقام الأول",
+            "desc": "أصبحت مقدم رعاية صحية لرعاية المرضى، وليس لمطاردة شركات التأمين، أو فك تشفير رفض المطالبات، أو قضاء ساعات مدفونًا في الأعمال الورقية للفوترة. في SBN Healthcare Solution، نتعامل مع كل ذلك من أجلك.",
+            "get_started": "البدء",
+            "hipaa": "متوافق مع HIPAA",
+            "us_support": "دعم من الولايات المتحدة",
+            "experience": "أكثر من ١٤ عامًا من الخبرة",
+            "explore": "استكشاف المنصة"
+        },
+        "what_we_do": {
+            "tag": "ما نقوم به",
+            "title_line1": "خدمات فواتير الرعاية الصحية الكاملة،",
+            "title_line2": "من التسجيل إلى الدفع",
+            "desc": "نحن ندير دورة إيراداتك بالكامل حتى لا تضطر إلى ذلك. اعتبرنا قسم الفواتير المخصص لك — بدون النفقات الإضافية.",
+            "explore": "استكشاف الخدمة",
+            "s1_title": "خدمات إدارة دورة الإيرادات",
+            "s1_desc": "نحن نشرف على كل مرحلة: تسجيل المرضى، والتحقق من التأمين، وإدخال الرسوم، وتقديم المطالبات، وترحيل المدفوعات، وإعداد التقارير.",
+            "s2_title": "خدمات الفواتير الطبية",
+            "s2_desc": "يتم تقديم جميع المطالبات في غضون ٤٨ ساعة من استلام الرسوم. تمر كل مطالبة بتدقيق شامل قبل التقديم لضمان معدل قبول مرتفع من المرة الأولى وتسريع عمليات السداد.",
+            "s3_title": "خدمات الترميز الطبي",
+            "s3_desc": "يطبق مبرمجونا المعتمدون أدق رموز ICD-١٠ و CPT و HCPCS على كل مطالبة. يعني الترميز المناسب عددًا أقل من الرفض وتوافقًا أفضل وأقصى قدر من التعويضات.",
+            "s4_title": "خدمات متابعة الذمم المدينة",
+            "s4_desc": "المطالبات غير المسددة لا تجلس في طابور. يقوم المتخصصون لدينا بتتبع كل مطالبة معلقة ومتابعتها والطعن فيها بفاعلية — مما يحافظ على استقرار تدفقك النقدي.",
+            "s5_title": "فواتير خاصة بالتخصص",
+            "s5_desc": "سواء كنت تعمل في مجال الصحة السلوكية، أو المعدات الطبية (DME)، أو جراحة العظام، أو الرعاية العاجلة، أو الخدمات الصحية عن بعد، أو تدير مستشفى متعدد التخصصات، فإن فريقنا يعرف قواعد الدافع ومتطلبات الامتثال الخاصة بتخصصك."
+        },
+        "about_us_page": {
+            "tag": "من نحن وكيف نعمل",
+            "title": "نبني أنظمة فوترة طبية موثوقة",
+            "subtitle": "نحن لسنا مجرد مزود خدمة. نحن شركاؤك في الإيرادات.",
+            "core_team": "الفريق الأساسي",
+            "leadership": "قيادة تتفهم مشاكلك",
+            "ceo_role": "المؤسس والرئيس التنفيذي",
+            "ceo_desc": "بخبرة تزيد عن ١٠ سنوات في إدارة دورة إيرادات الرعاية الصحية، أسس افتخار SBN Healthcare لحل الفجوات التشغيلية التي تتسبب في خسارة العيادات للأموال. يركز نهجه على بناء أنظمة قوية بدلاً من مجرد إكمال المهام.",
+            "coo_role": "المؤسس المشارك ومدير العمليات",
+            "coo_desc": "يجلب نعمة الله خبرة تشغيلية واسعة، مما يضمن عمل العمليات الخلفية لـ SBN بسلاسة. يشرف على تنفيذ مسارات عمل قابلة للتطوير تقلل الأخطاء وتسرع التدفق النقدي للمنشآت الطبية.",
+            "intro_p1": "لنكن صادقين، معظم أنظمة الفوترة في الرعاية الصحية فوضوية. الكثير من الفجوات، والكثير من التأخير، ورفض أكثر من اللازم.",
+            "intro_p2": "لهذا السبب بالتحديد تهمك SBN Healthcare. تأسست في عام ٢٠٢١، نحن لسنا هنا لمجرد \"القيام بالفوترة\". نحن نركز على بناء أنظمة إيرادات منظمة ومناسبة تعمل فعليًا في الحياة الواقعية.",
+            "mission_title": "مهمتنا",
+            "mission_desc": "القضاء على الاحتكاك الإداري وتسرب الإيرادات لمقدمي الرعاية الصحية من خلال أنظمة فوترة منظمة مدفوعة بالأداء.",
+            "vision_title": "رؤيتنا",
+            "vision_desc": "صناعة رعاية صحية يركز فيها مقدمو الخدمات بالكامل على رعاية المرضى، مع العلم أن عملياتهم المالية محسنة وآمنة تمامًا.",
+            "do_title": "ما نفعله بالفعل",
+            "do_desc": "نحن نربط دورة الإيرادات الكاملة، وليس جزءًا واحدًا منها فقط.",
+            "do_tag": "مجالات التركيز",
+            "work_title": "كيف نعمل",
+            "work_desc": "لا فوضى. لا تخمين. مجرد نظام واضح.",
+            "work_tag": "العمليات",
+            "choose_title": "لماذا تختارنا",
+            "choose_desc": "نحن نقدم نماذج منظمة مدفوعة بالأداء.",
+            "choose_tag": "التمايز",
+            "proven_tag": "أداء مثبت",
+            "proven_title": "نتائج حقيقية من ممارسات حقيقية",
+            "proven_desc": "شاهد كيف تؤثر التغييرات الهيكلية بشكل مباشر على الكفاءة المالية والتشغيلية.",
+            "faq_title": "أسئلة ومعلومات",
+            "cta_title": "هل أنت مستعد لإصلاح دورة إيراداتك؟",
+            "cta_desc": "توقف عن خسارة الأموال بسبب الفواتير غير الفعالة. دعنا نبني نظامًا يعمل.",
+            "cta_btn": "حجز مكالمة استراتيجية",
+            "focusAreas": [
+                {
+                    "t": "إصلاح أوجه القصور في الفواتير"
+                },
+                {
+                    "t": "تقليل معدلات الرفض"
+                },
+                {
+                    "t": "تحسين رؤية التدفق النقدي"
+                },
+                {
+                    "t": "الحفاظ على امتثال كل شيء"
+                }
+            ],
+            "operationsLookLike": [
+                {
+                    "t": "مسارات عمل قياسية"
+                },
+                {
+                    "t": "فحوصات جودة متعددة"
+                },
+                {
+                    "t": "وصول مقيد للبيانات"
+                },
+                {
+                    "t": "تتبع الأداء المستمر"
+                }
+            ],
+            "makesUsDifferent": [
+                {
+                    "t": "نحن نركز على الأنظمة، وليس فقط المهام"
+                },
+                {
+                    "t": "كل شيء مدفوع بالأداء"
+                },
+                {
+                    "t": "الامتثال مدمج"
+                },
+                {
+                    "t": "النماذج قابلة للتطوير"
+                },
+                {
+                    "t": "العمل شفاف"
+                }
+            ],
+            "faqs": [
+                {
+                    "q": "ما هي الخدمات التي تقدمها SBN Healthcare؟",
+                    "a": "دعم كامل لدورة الإيرادات بما في ذلك الفواتير، الترميز، إدارة الرفض، وتحسين سير العمل."
+                },
+                {
+                    "q": "كيف يمكنني حجز موعد مع SBN Healthcare عبر الإنترنت؟",
+                    "a": "يمكنك بسهولة تحديد موعد استشارة من خلال الموقع."
+                },
+                {
+                    "q": "ما هي خطط التأمين التي يقبلها مقدمو SBN Healthcare؟",
+                    "a": "نحن نعمل مع أنظمة دافعين متعددة بناءً على احتياجات العميل."
+                },
+                {
+                    "q": "أين يقع أقرب مرفق لـ SBN Healthcare؟",
+                    "a": "نحن نعمل على مستوى العالم ونقدم الخدمات عن بعد بأنظمة منظمة."
+                }
+            ],
+            "caseStudies": [
+                {
+                    "clientType": "مجموعة طبية متعددة التخصصات",
+                    "description": "عيادة كبيرة تعاني من تقادم الذمم المدينة وارتفاع معدلات الرفض بسبب عمليات الفواتير اليدوية.",
+                    "metrics": [
+                        {
+                            "label": "إيرادات إضافية",
+                            "value": "+$١.٢M",
+                            "description": "تم استردادها في أول ٦ أشهر"
+                        },
+                        {
+                            "label": "تقليل معدل الرفض",
+                            "value": "٤٠٪",
+                            "description": "من التقديمات الأولية"
+                        },
+                        {
+                            "label": "انخفاض أيام الذمم المدينة",
+                            "value": "٢٥ يومًا",
+                            "description": "دورات دفع أسرع"
+                        }
+                    ],
+                    "beforeAfter": [
+                        {
+                            "feature": "تنظيف المطالبات",
+                            "before": "المراجعات اليدوية تؤدي إلى أخطاء",
+                            "after": "فحوصات قياسية آلية (٩٩٪ نظيفة)"
+                        },
+                        {
+                            "feature": "معالجة الرفض",
+                            "before": "غالبًا ما يتم تجاهلها أو شطبها",
+                            "after": "استئناف وتتبع فوري"
+                        },
+                        {
+                            "feature": "الرؤية المالية",
+                            "before": "جداول بيانات ثابتة شهرية",
+                            "after": "لوحات معلومات أداء حية"
+                        }
+                    ]
+                }
+            ],
+            "conventional": "الطريقة التقليدية",
+            "sbn_integration": "تكامل SBN"
+        },
+        "contact_us_page": {
+            "tag": "تواصل معنا",
+            "title_1": "دعنا نبني نظام",
+            "title_2": "إيرادات أفضل",
+            "desc": "توقف عن خسارة الأموال بسبب عمليات الفوترة غير الفعالة. اتصل بنا اليوم للحصول على تحليل مجاني لدورة الإيرادات واكتشف المبلغ الذي يمكن أن تدخره."
+        },
+        "contact_details": {
+            "tag": "ابقى على تواصل",
+            "title_1": "مستعد للبدء؟",
+            "title_2": "دعنا نتحدث.",
+            "desc": "نحن هنا للمساعدة والإجابة على أي سؤال قد يكون لديك. نحن نتطلع إلى الاستماع منك.",
+            "email": "راسلنا عبر البريد الإلكتروني",
+            "us_support": "الدعم في الولايات المتحدة",
+            "me_support": "الدعم في الشرق الأوسط",
+            "us_hq": "المقر الرئيسي في الولايات المتحدة",
+            "me_office": "مكتب الشرق الأوسط"
+        },
+        "contact_form": {
+            "title_1": "الوصول إلى الدليل",
+            "title_2": "المجاني",
+            "desc": "انضم إلى أكثر من ٥٠٠ عيادة تعمل على تحسين دورة إيراداتها اليوم.",
+            "benefit_1": "وصول فوري إلى الدليل المكون من ١٢ صفحة",
+            "benefit_2": "دراسات حالة حقيقية وبيانات مرجعية",
+            "benefit_3": "تحسينات سير عمل قابلة للتنفيذ",
+            "fullname": "الاسم الكامل",
+            "work_email": "البريد الإلكتروني للعمل",
+            "practice_name": "اسم العيادة / الممارسة",
+            "claim_volume": "حجم المطالبات الشهري",
+            "optional": "(اختياري)",
+            "btn_loading": "جاري المعالجة...",
+            "btn_submit": "احصل على وصول فوري",
+            "trust_1": "خصوصية البيانات والأمن بنسبة ١٠٠٪.",
+            "trust_2": "نحن لا نرسل رسائل غير مرغوب فيها أو نشارك معلوماتك."
+        },
+        "pricing_page": {
+            "tag": "فلسفة التسعير",
+            "title_1": "نحن لا نقوم بالفواتير فقط.",
+            "title_2": "نحن نبني",
+            "title_3": "الإيرادات.",
+            "desc": "نماذج مرنة ومدفوعة بالأداء مصممة للتوسع مع ممارستك.",
+            "overview_title_1": "تسعيرنا",
+            "overview_title_2": "الفلسفة",
+            "overview_desc": "نحن نربط نجاحنا بنجاحك. لا توجد رسوم خفية. لا توجد عقود صارمة.",
+            "overview_btn": "احصل على عرض أسعار مخصص",
+            "card_1_h": "الشفافية",
+            "card_1_p": "هياكل تسعير واضحة ومقدمة.",
+            "card_2_h": "الأداء",
+            "card_2_p": "نحن نكسب المال عندما تكسب أنت.",
+            "card_3_h": "المرونة",
+            "card_3_p": "نماذج تتكيف مع حجم ممارستك.",
+            "models_tag": "نماذج التسعير",
+            "models_title": "هياكل مرنة",
+            "models_desc": "اختر النموذج الذي يتماشى مع احتياجاتك التشغيلية الحالية.",
+            "base_inclusions": "المشتملات الأساسية",
+            "base_desc": "ما يتم تضمينه في كل نموذج كمعيار.",
+            "financial_roi": "العائد المالي (ROI)",
+            "financial_desc": "التأثير القابل للقياس الذي نجلبه لربحك النهائي.",
+            "takeaways_q": "النقاط الرئيسية",
+            "takeaways_title": "السريعة",
+            "info_center": "مركز المعلومات",
+            "cta_title_1": "هل أنت مستعد لتحسين",
+            "cta_title_2": "إيراداتك؟",
+            "cta_desc": "احصل على اقتراح تسعير مخصص مصمم ليناسب حجم ممارستك وتخصصك.",
+            "cta_btn": "طلب مقترح",
+            "pricingModels": [
+                {
+                    "title": "التسعير المبني على الأداء (لكل مطالبة / تحصيل)",
+                    "desc": "نموذج مرن وقابل للتطوير حيث تدفع بناءً على الأداء الفعلي.",
+                    "bestFor": "الممارسات الصغيرة إلى المتوسطة الحجم",
+                    "points": [
+                        "ادفع لكل مطالبة أو نسبة مئوية من التحصيلات",
+                        "يتوسع مع نمو حجمك",
+                        "لا توجد نفقات عامة ثابتة",
+                        "مدفوع بالكامل بالأداء"
+                    ],
+                    "footer": "هذا هو أحد أكثر أنواع استراتيجيات التسعير شيوعًا المستخدمة في الأعمال المتنامية."
+                },
+                {
+                    "title": "نموذج فريق فوترة مخصص",
+                    "desc": "فريق كامل يعمل حصريًا لصالح ممارستك.",
+                    "bestFor": "الممارسات المتوسطة إلى الكبيرة",
+                    "points": [
+                        "خبراء فوترة مخصصون",
+                        "مسارات عمل سلسة ومتسقة",
+                        "سيطرة كاملة على العمليات",
+                        "تكلفة شهرية يمكن التنبؤ بها"
+                    ],
+                    "footer": "مشابه لأساليب واستراتيجيات التسعير المهيكلة المستخدمة في العمليات طويلة الأجل."
+                },
+                {
+                    "title": "نموذج شراكة إدارة دورة الإيرادات للمؤسسات",
+                    "desc": "تسعير مخصص بالكامل للإعدادات المعقدة وذات الحجم الكبير.",
+                    "bestFor": "المواقع المتعددة أو مقدمو المؤسسات",
+                    "points": [
+                        "تسعير مخصص بناءً على التعقيد",
+                        "دعم متعدد التخصصات",
+                        "تكامل الأنظمة",
+                        "تحسين يركز على الأداء"
+                    ],
+                    "footer": "يعكس هذا استراتيجيات تسعير متقدمة مع أمثلة تستخدمها المنظمات الكبيرة."
+                }
+            ],
+            "includedBenefits": [
+                {
+                    "title": "إدارة دورة الإيرادات بالكامل",
+                    "desc": "دعم شامل من البداية للنهاية"
+                },
+                {
+                    "title": "التحقق من الأهلية والمزايا",
+                    "desc": "التحقق الدقيق من المرضى"
+                },
+                {
+                    "title": "الفوترة الطبية والترميز",
+                    "desc": "مسارات عمل نظيفة وخالية من الأخطاء"
+                },
+                {
+                    "title": "تقديم المطالبات والمتابعة",
+                    "desc": "استرداد مدفوعات أسرع"
+                },
+                {
+                    "title": "إدارة الرفض والاسترداد",
+                    "desc": "تقليل تسرب الإيرادات"
+                },
+                {
+                    "title": "إعداد التقارير في الوقت الفعلي",
+                    "desc": "تتبع واضح للأداء"
+                },
+                {
+                    "title": "مسارات عمل متوافقة",
+                    "desc": "عمليات آمنة ومنظمة"
+                }
+            ],
+            "financialOutcomes": [
+                {
+                    "title": "تحصيلات صافية أعلى",
+                    "desc": "تكسب ما تستحقه"
+                },
+                {
+                    "title": "تقليل أيام الحسابات المدينة",
+                    "desc": "تدفق نقدي أسرع"
+                },
+                {
+                    "title": "انخفاض معدلات الرفض",
+                    "desc": "أخطاء أقل ومطالبات أفضل"
+                },
+                {
+                    "title": "تحسين الكفاءة",
+                    "desc": "نفايات أقل ومخرجات أكثر"
+                }
+            ],
+            "takeaways": [
+                "يجب أن يتماشى التسعير مع الأداء",
+                "نماذج مرنة = نمو أفضل",
+                "عائد الاستثمار (ROI) يهم أكثر من التكلفة",
+                "التسعير القابل للتطوير يدعم النجاح طويل الأجل",
+                "الاستراتيجية الصحيحة = إيرادات أقوى"
+            ],
+            "faqs": [
+                {
+                    "q": "هل تقدمون تسعيرًا مخصصًا؟",
+                    "a": "نعم، كل شيء مصمم بناءً على حجمك وتخصصك ومسارات عملك."
+                },
+                {
+                    "q": "هل يوجد عقد طويل الأجل؟",
+                    "a": "لا توجد عقود صارمة — نحن نحافظ على مرونة الأمور."
+                },
+                {
+                    "q": "كيف يتم حساب التسعير؟",
+                    "a": "يعتمد ذلك على حجم المطالبات أو التحصيلات أو هيكل الفريق المخصص."
+                },
+                {
+                    "q": "هل سيتغير التسعير مع نمونا؟",
+                    "a": "نعم، ولكن بطريقة تدعم نموك، وليس تضره."
+                }
+            ]
+        },
+        "services_page": {
+            "tag": "حلول شاملة",
+            "title_1": "المزيد من الحلول لإدارة دورة",
+            "title_2": "إيرادات سهلة",
+            "hero_desc": "اكتشف المزيد من الحلول لدعم إدارة دورة الإيرادات (RCM) بالكامل. قلل الأخطاء، وحسّن التدفق النقدي، وأدر عملية الفوترة بطريقة بسيطة وسلسة.",
+            "intro_1": "نادرًا ما تكون الفوترة الطبية بسيطة. <span class=\"text-[#٠٠٣٣e٧]\">ولكن يجب أن تكون كذلك.</span>",
+            "intro_2": "لقد صممنا خدماتنا لإزالة الاحتكاك بين تقديم الرعاية والحصول على المال. كل حل نقدمه مصمم لمعالجة انهيار محدد في دورة الإيرادات التقليدية.",
+            "intro_3": "توقف عن قبول معدلات الرفض العالية والمدفوعات المتأخرة كمعيار. حان الوقت لنظام يعمل.",
+            "wwd_tag": "ما نقوم به",
+            "wwd_title": "القدرات الأساسية",
+            "wwd_desc": "نحن نتعامل مع تعقيدات الفوترة الطبية الحديثة حتى لا تضطر أنت إلى ذلك. تغطي قدراتنا الأساسية كل مرحلة من مراحل دورة الإيرادات.",
+            "wwd_c1_title": "فوترة شاملة من البداية للنهاية",
+            "wwd_c1_desc": "إدارة الدورة الكاملة من إنشاء المطالبة إلى تسوية الدفع النهائي.",
+            "wwd_c2_title": "دقة الترميز",
+            "wwd_c2_desc": "مبرمجون معتمدون يضمنون أقصى قدر من الامتثال والاسترداد الأمثل.",
+            "wwd_c3_title": "استرداد الرفض",
+            "wwd_c3_desc": "متابعة قوية واستئناف لاسترداد الإيرادات المفقودة.",
+            "wwd_c4_title": "التقارير المالية",
+            "wwd_c4_desc": "رؤى واضحة وقابلة للتنفيذ حول الصحة المالية لممارستك.",
+            "specific_title": "حلول محددة",
+            "deep_dive": "نظرة متعمقة",
+            "why_title_1": "لماذا تختار",
+            "why_title_2": "SBN",
+            "why_desc": "نحن لا نعالج المطالبات فحسب. نحن نصمم عمليات إيرادات تتوسع.",
+            "why_p1": "٩٩٪ معدل المطالبات النظيفة في التمريرة الأولى",
+            "why_p2": "متوسط زيادة ٢٠٪ في التدفق النقدي",
+            "why_p3": "تخفيض أيام الحسابات المدينة بنسبة ٣٠٪",
+            "why_p4": "عمليات متوافقة مع HIPAA بنسبة ١٠٠٪",
+            "what_get_title_1": "ما الذي",
+            "what_get_title_2": "تحصل عليه",
+            "what_get_desc": "عندما تشارك معنا، تكتسب امتدادًا مخصصًا لممارستك.",
+            "what_get_c1": "مدفوع بالبيانات",
+            "what_get_c2": "مدفوعات أسرع",
+            "what_get_c3": "امتثال كامل",
+            "what_get_c4": "أنظمة قابلة للتوسع",
+            "what_get_footer_1": "ركز على رعاية المرضى.",
+            "what_get_footer_2": "سنتولى نحن أمر الإيرادات.",
+            "services_data": {
+                "eligibility-verification": {
+                    "title": "التحقق من الأهلية",
+                    "desc": "قلل من رفض المطالبات من خلال الفحوصات في الوقت الفعلي والتحقق الدقيق من الأهلية."
+                },
+                "benefits-check": {
+                    "title": "التحقق من المزايا",
+                    "desc": "قم بتأكيد تفاصيل الدفع المشترك والخصم والتغطية قبل بدء العلاج."
+                },
+                "prior-authorization": {
+                    "title": "الموافقة المسبقة",
+                    "desc": "تسريع الموافقات وتقليل التأخير والحفاظ على سلاسة عملية الفوترة الخاصة بك."
+                },
+                "exclusion-check": {
+                    "title": "التحقق من الاستبعاد",
+                    "desc": "تجنب العقوبات وتقليل المخاطر والبقاء مستعدًا للتدقيق من خلال فحص بسيط."
+                },
+                "patient-collections-ar-recovery": {
+                    "title": "تحصيلات المرضى واسترداد حسابات القبض (AR)",
+                    "desc": "اجعل التحصيلات سهلة من خلال المتابعة السريعة واسترداد AR بشكل أسرع."
+                },
+                "consulting": {
+                    "title": "الاستشارات",
+                    "desc": "احصل على خدمات استشارية عملية لتحسين دورة إيراداتك."
+                }
+            }
+        },
+        "security_page": {
+            "tag": "متوافق مع HIPAA | إعداد سحابي آمن | وصول خاضع للرقابة",
+            "title": "خدمات الامتثال والأمن لأنظمة الرعاية الصحية",
+            "desc": "في الرعاية الصحية، لا يمكنك الاستهانة بأمن البيانات. فجوة صغيرة واحدة، وقد تسوء الأمور بسرعة.",
+            "intro_title": "أمان على مستوى المؤسسات يحمي بياناتك فعليًا",
+            "intro_p1": "تم بناء نظام الامتثال والأمان لدينا للحفاظ على بيانات المرضى آمنة، والتحكم في من يمكنه الوصول إليها، والتأكد من توافق كل شيء مع لوائح الرعاية الصحية.",
+            "intro_p2": "سواء كنت تحاول فهم معايير الامتثال الأمني أو تريد فقط نظامًا أكثر أمانًا، فهنا تبدأ العملية.",
+            "intro_btn": "طلب وثائق الامتثال",
+            "takeaways_title": "نقاط رئيسية سريعة",
+            "takeaways": [
+                "يجب دمج الأمان من البداية، وليس كإضافة لاحقة",
+                "التحكم القوي في الوصول يقلل من المخاطر",
+                "المراقبة = الاستعداد للتدقيق",
+                "العملية + التكنولوجيا = أمان حقيقي",
+                "أنظمة أفضل = عمليات أكثر أمانًا"
+            ],
+            "faq_title": "أسئلة شائعة",
+            "faqs": [
+                {
+                    "q": "ما هو الامتثال والأمان في الرعاية الصحية؟",
+                    "a": "يعني حماية بيانات المرضى أثناء اتباع اللوائح مثل HIPAA."
+                },
+                {
+                    "q": "ما هي معايير الامتثال الأمني؟",
+                    "a": "القواعد التي تضمن بقاء الأنظمة والبيانات آمنة."
+                },
+                {
+                    "q": "ما الذي تتضمنه قائمة التحقق من الامتثال الأمني؟",
+                    "a": "التحكم في الوصول، التشفير، المراقبة، عمليات التدقيق، وإدارة المخاطر."
+                },
+                {
+                    "q": "هل وظائف الامتثال الأمني تنمو؟",
+                    "a": "نعم، الطلب يتزايد بسبب الاحتياجات المتزايدة لأمن البيانات."
+                },
+                {
+                    "q": "ما هو راتب مسؤول الامتثال الأمني؟",
+                    "a": "يعتمد ذلك على الخبرة ولكنه مرتفع بشكل عام بسبب أهمية الدور."
+                }
+            ],
+            "cta_title": "العمل مع شريك آمن وممتثل",
+            "cta_desc": "إذا لم يكن نظامك آمنًا، فستظهر المشكلات عاجلاً أم آجلاً. دعنا نبني شيئًا يحمي بياناتك فعليًا ويبقيك متوافقًا.",
+            "cta_btn": "جدولة مراجعة الامتثال",
+            "securityData": [
+                {
+                    "title": "لا يتم إضافة الأمان لاحقًا - بل يكون مدمجًا",
+                    "desc": "تعامل الكثير من الأنظمة مع الأمان كطبقة إضافية. وهنا تبدأ المشاكل عادة. في SBN Healthcare، يعد الامتثال والأمان جزءًا من النظام بالفعل - من سير العمل إلى معالجة البيانات.",
+                    "points": [
+                        {
+                            "t": "مدمج في كل خطوة",
+                            "p": "الأمان جزء من العملية، وليس إضافة"
+                        },
+                        {
+                            "t": "مخاطر أقل، تحكم أكثر",
+                            "p": "نقلل التعرض للمخاطر حيثما أمكن ذلك"
+                        },
+                        {
+                            "t": "مساءلة واضحة",
+                            "p": "الجميع يعرف ما يمكنه الوصول إليه ولماذا"
+                        }
+                    ],
+                    "footer": "تُظهر أمثلة الامتثال والأمان الحقيقية أن الأنظمة تفشل عندما يُعامل الأمان كفكرة لاحقة."
+                },
+                {
+                    "title": "يتماشى مع HIPAA ومعايير الصناعة",
+                    "desc": "نحن نتبع معايير صارمة للامتثال الأمني حتى تظل بيانات المرضى محمية على كل المستويات.",
+                    "points": [
+                        {
+                            "t": "حماية المعلومات الصحية المحمية (PHI) عبر سير العمل",
+                            "p": "تظل البيانات آمنة من البداية إلى النهاية"
+                        },
+                        {
+                            "t": "ضمانات مناسبة في مكانها",
+                            "p": "الضوابط الفنية والإدارية"
+                        },
+                        {
+                            "t": "التعامل الآمن مع السجلات",
+                            "p": "لا يوجد تعرض غير ضروري"
+                        },
+                        {
+                            "t": "تحديث مستمر",
+                            "p": "نبقى على اطلاع دائم بالتغييرات التنظيمية"
+                        }
+                    ],
+                    "footer": "هذه أمثلة عملية للامتثال الأمني المستخدم في أنظمة الرعاية الصحية الحقيقية."
+                },
+                {
+                    "title": "بنية تحتية سحابية آمنة (لا توجد أطراف سائبة)",
+                    "desc": "يعمل كل شيء في إعداد سحابي خاضع للرقابة - غير مفتوح، وغير مكشوف.",
+                    "points": [
+                        {
+                            "t": "وصول مقيد فقط",
+                            "p": "لا يحصل الجميع على إمكانية الدخول"
+                        },
+                        {
+                            "t": "بيئات منفصلة",
+                            "p": "تظل مسارات العمل معزولة وآمنة"
+                        },
+                        {
+                            "t": "لا يوجد تعرض عام",
+                            "p": "البيانات الحساسة غير مرئية في الخارج"
+                        },
+                        {
+                            "t": "مراقبة مستمرة",
+                            "p": "نراقب كل شيء باستمرار"
+                        }
+                    ],
+                    "footer": "تبدأ قائمة التحقق المناسبة من الامتثال الأمني دائمًا بأمان البنية التحتية."
+                },
+                {
+                    "title": "التحكم في الوصول الذي يكون منطقيًا بالفعل",
+                    "desc": "لا ينبغي للجميع رؤية كل شيء - بكل بساطة. نحن نتحكم في الوصول بناءً على الأدوار والمسؤوليات.",
+                    "points": [
+                        {
+                            "t": "الوصول القائم على الأدوار (RBAC)",
+                            "p": "يعتمد الوصول على دورك"
+                        },
+                        {
+                            "t": "رؤية محدودة",
+                            "p": "فقط البيانات المطلوبة تكون مرئية"
+                        },
+                        {
+                            "t": "مراقبة النشاط",
+                            "p": "نحن نتتبع الاستخدام والجلسات"
+                        },
+                        {
+                            "t": "إزالة فورية للوصول",
+                            "p": "لا توجد أذونات عالقة"
+                        }
+                    ],
+                    "footer": "هذا بالضبط ما يتعامل معه المحترفون في وظائف الامتثال الأمني يوميًا."
+                },
+                {
+                    "title": "معالجة آمنة للبيانات والتشفير",
+                    "desc": "البيانات محمية سواء كانت قيد الاستخدام أو مخزنة أو أثناء النقل.",
+                    "points": [
+                        {
+                            "t": "نقل بيانات مشفر (TLS)",
+                            "p": "لا توجد حركة غير مضمونة"
+                        },
+                        {
+                            "t": "معالجة محمية",
+                            "p": "يحدث كل شيء في بيئات خاضعة للرقابة"
+                        },
+                        {
+                            "t": "لا مشاركة غير آمنة",
+                            "p": "قواعد التعامل الصارمة"
+                        },
+                        {
+                            "t": "مسارات عمل منظمة",
+                            "p": "لا شيء عشوائي، كل شيء محدد"
+                        }
+                    ],
+                    "footer": "هذه أجزاء أساسية من أي شهادة امتثال أمني."
+                },
+                {
+                    "title": "لا وصول عشوائي لجهة خارجية",
+                    "desc": "لا نسمح بالوصول الخارجي غير الضروري - من هنا تأتي معظم المخاطر.",
+                    "points": [
+                        {
+                            "t": "لا مشاركة بيانات مفتوحة",
+                            "p": "البيانات غير معرضة للأنظمة الخارجية"
+                        },
+                        {
+                            "t": "تكاملات خاضعة للرقابة فقط",
+                            "p": "واجهات برمجة التطبيقات (APIs) آمنة ومحدودة"
+                        },
+                        {
+                            "t": "قيود على الموردين",
+                            "p": "يتم التحكم في وصول الجهات الخارجية بإحكام"
+                        },
+                        {
+                            "t": "وصول حسب الحاجة فقط",
+                            "p": "لا توجد أذونات إضافية"
+                        }
+                    ],
+                    "footer": "العديد من أمثلة الامتثال والأمان في العالم الحقيقي تفشل بالضبط في هذه النقطة."
+                },
+                {
+                    "title": "المراقبة والتسجيل والاستعداد للتدقيق",
+                    "desc": "إذا حدث شيء ما، يجب أن تكون قادرًا على تتبعه - بوضوح.",
+                    "points": [
+                        {
+                            "t": "سجلات النشاط",
+                            "p": "كل شيء مسجل"
+                        },
+                        {
+                            "t": "تتبع الوصول",
+                            "p": "من وصل إلى ماذا ومتى"
+                        },
+                        {
+                            "t": "بيانات جاهزة للتدقيق",
+                            "p": "مُجهزة للمراجعة في أي وقت"
+                        },
+                        {
+                            "t": "فحوصات دورية",
+                            "p": "نحن لا نضبطه وننساه فحسب"
+                        }
+                    ],
+                    "footer": "من المتوقع وجود هذا المستوى من التتبع في الإعدادات المتقدمة لشهادة الامتثال الأمني."
+                },
+                {
+                    "title": "الأمان ليس فقط تكنولوجيا - إنه عملية أيضًا",
+                    "desc": "حتى أفضل الأنظمة تفشل إذا لم تكن العمليات قوية. نحن نركز على كليهما.",
+                    "points": [
+                        {
+                            "t": "مسارات عمل منظمة",
+                            "p": "لا مجال للتخمين"
+                        },
+                        {
+                            "t": "بيئات خاضعة للرقابة",
+                            "p": "تعامل آمن دائمًا"
+                        },
+                        {
+                            "t": "فحوصات متعددة المستويات",
+                            "p": "يتم اكتشاف الأخطاء مبكرًا"
+                        },
+                        {
+                            "t": "عمليات قياسية",
+                            "p": "الاتساق مهم"
+                        }
+                    ],
+                    "footer": "هذا هو المكان الذي تعمل فيه العديد من وظائف الامتثال الأمني فعليًا."
+                },
+                {
+                    "title": "إدارة المخاطر (قبل حدوث المشاكل)",
+                    "desc": "نركز على منع المشكلات، وليس فقط إصلاحها لاحقًا.",
+                    "points": [
+                        {
+                            "t": "تعامل يدوي أقل",
+                            "p": "فرص أقل للخطأ"
+                        },
+                        {
+                            "t": "تعرض خاضع للرقابة",
+                            "p": "تظل البيانات محمية"
+                        },
+                        {
+                            "t": "مراقبة مستمرة",
+                            "p": "مراقبة المخاطر دائمًا"
+                        },
+                        {
+                            "t": "تحسينات مستمرة",
+                            "p": "النظام يستمر في التحسن"
+                        }
+                    ],
+                    "footer": "هذا هو السبب في أن الأدوار المرتبطة براتب مسؤول الامتثال الأمني مرتفعة - المسؤولية ضخمة."
+                }
+            ]
+        },
+        "rcm_calculator": {
+            "tag": "بدون التزام | رؤى فورية | تقديرات مبنية على البيانات",
+            "title": "حاسبة دورة الإيرادات – قدر خسارة الإيرادات وإمكانية الاسترداد",
+            "desc": "لنكن صادقين - لا تدرك معظم العيادات مقدار الإيرادات التي تفقدها كل شهر. تساعدك حاسبة RCM هذه على فهم مكان تسرب أموالك بسرعة والمقدار الذي يمكنك استرداده باستخدام أنظمة أفضل.",
+            "tool_tag": "أداة تفاعلية",
+            "tool_title": "قدر خسارة الإيرادات وإمكانية الاسترداد",
+            "tool_desc": "أضف تفاصيلك الأساسية أدناه واحصل على تقديرات فورية.",
+            "meanings_title": "ماذا تعني هذه الأرقام في الواقع",
+            "meanings_desc": "هذه الأرقام ليست مجرد تقديرات - بل تعكس مشكلات حقيقية داخل عملية الفواتير الخاصة بك. تساهم معدلات الرفض العالية وتأخر السداد وضعف أنظمة التحقق في خسارة الإيرادات.",
+            "m1_t": "تأثير الرفض",
+            "m1_p": "حتى نسبة الرفض الصغيرة تؤثر على إجمالي الإيرادات",
+            "m2_t": "فجوات سير العمل",
+            "m2_p": "عدم الكفاءة يقلل من التحصيل",
+            "m3_t": "فرصة التحسين",
+            "m3_p": "أنظمة أفضل = إيرادات أفضل",
+            "why_title": "لماذا تستخدم العيادات حاسبتنا",
+            "why_desc": "تم تصميم حاسبتنا خصيصًا لتعقيد إيرادات الرعاية الصحية، على عكس الأدوات العامة.",
+            "w1_t": "تحديد تسرب الإيرادات المخفي",
+            "w1_p": "اكتشف الخسائر التي لم تكن تعلم بوجودها",
+            "w2_t": "فهم تأثير الرفض",
+            "w2_p": "اكتشف كيف يؤثر الرفض على دخلك",
+            "w3_t": "تحسين كفاءة الفواتير",
+            "w3_p": "إصلاح فجوات العملية",
+            "w4_t": "زيادة صافي التحصيل",
+            "w4_p": "عظم ما تكسبه",
+            "form_title": "احصل على تحليل تفصيلي للإيرادات",
+            "form_desc": "هل تريد أكثر من مجرد تقديرات؟ يمكننا أن نقدم لك تفصيلاً أعمق لدورة إيراداتك ومكان خسارة أموالك بالضبط.",
+            "form_name": "الاسم الكامل",
+            "form_email": "عنوان البريد الإلكتروني",
+            "form_practice": "اسم العيادة / المنشأة",
+            "form_revenue": "الإيرادات الشهرية (اختياري)",
+            "form_btn": "طلب تقرير مفصل",
+            "form_processing": "جاري المعالجة...",
+            "takeaways_title": "النقاط الرئيسية السريعة",
+            "t1": "عدم كفاءة صغيرة = خسارة كبيرة في الإيرادات",
+            "t2": "الرفض يؤثر بشكل مباشر على الدخل",
+            "t3": "غالبًا ما تكون إمكانية الاسترداد أعلى من المتوقع",
+            "t4": "تحسن الرؤى المبنية على البيانات القرارات",
+            "t5": "سير العمل المحسن = تحصيل أعلى",
+            "faq_title": "أسئلة شائعة",
+            "fq1": "ما هي حاسبة RCM؟",
+            "fa1": "إنها أداة تساعد في تقدير الإيرادات والخسائر وفرص الاسترداد في فواتير الرعاية الصحية.",
+            "fq2": "ما مدى دقة النتائج؟",
+            "fa2": "إنها تقديرات بناءً على مدخلاتك، ولكنها مفيدة لتحديد الاتجاهات.",
+            "fq3": "هل يمكن أن يحسن هذا إيراداتي؟",
+            "fa3": "نعم، من خلال تحديد الفجوات وفرص التحسين.",
+            "fq4": "هل يشبه هذا حاسبات رواتب العسكريين؟",
+            "fa4": "لا، لا علاقة لأدوات مثل حاسبة رواتب العسكريين بالرعاية الصحية.",
+            "fq5": "هل أحتاج إلى معرفة تقنية لاستخدامه؟",
+            "fa5": "على الإطلاق - فقط أدخل التفاصيل الأساسية واحصل على النتائج على الفور.",
+            "cta_title": "ابدأ في فهم إيراداتك اليوم",
+            "cta_desc": "إذا كنت لا تتتبع خسارة إيراداتك، فأنت متأخر بالفعل. استخدم حاسبة RCM هذه للحصول على الوضوح - واتخذ الخطوة الأولى نحو أداء مالي أفضل. رؤى أفضل = قرارات أفضل = إيرادات أفضل.",
+            "cta_btn": "ابدأ تحليلك المجاني",
+            "calc_data": "بيانات النظام",
+            "calc_profile": "ملف العيادة",
+            "calc_profile_desc": "اضبط المؤشرات لتعكس مقاييس ممارستك الحالية للحصول على تحليل عالي الدقة لعائد الاستثمار.",
+            "calc_claims": "حجم المطالبات الشهري",
+            "calc_units_min": "١٠٠ وحدة",
+            "calc_units_max": "١٠,٠٠٠+ وحدة",
+            "calc_avg": "متوسط الإيرادات لكل زيارة",
+            "calc_di": "مؤشر الرفض الحالي (D.I.)",
+            "calc_di_opt": "١٪ (مثالي)",
+            "calc_di_crit": "٤٠٪ (تنبيه حرج)",
+            "calc_gross": "إجمالي الإيرادات الشهرية",
+            "calc_report": "تقرير التأثير",
+            "calc_financial": "إمكانية الاسترداد المالي",
+            "calc_baseline": "تسرب الإيرادات السنوي الأساسي",
+            "calc_high_exp": "تعرض عالي",
+            "calc_sbn": "الاسترداد المتوقع من SBN (الهدف ٦٥٪)",
+            "calc_audit": "تنفيذ تدقيق كامل",
+            "calc_confidential": "استشارة سرية مشمولة"
+        },
+        "career_page": {
+            "header_title": "انضم إلى فريقنا عالي الأداء",
+            "header_subtitle": "مستقبل الرعاية الصحية",
+            "header_desc": "أفرادنا هم أعظم أصولنا. نحن نقدر الطموحين المستعدين لتقديم أفضل تجربة مهنية في مجال فوترة الرعاية الصحية.",
+            "join_title": "انضم إلى فريقنا",
+            "join_desc": "نحن منظمة عالية الأداء. ونقدر الأشخاص الطموحين.<br /><br />سواء كان ذلك ممارسات الأفراد الحائزة على جوائز، برامج التدريب العالمية، الفوائد الجذابة، أو المكاتب الحديثة، فإننا نضمن توفير أفضل تجربة مهنية لموظفينا. لدينا دائمًا شواغر في الذمم المدينة (AR)، ترحيل المدفوعات، وإدخال الرسوم.<br /><br />أرسل سيرتك الذاتية عبر البريد الإلكتروني إلى <a href=\"mailto:info@sbnhealthcaresolution.com\" className=\"text-blue-٦٠٠ font-semibold no-underline transition-colors hover:text-blue-٨٠٠ hover:underline\">Info@sbnhealthcaresolution.com</a> وسنرد عليك خلال ٢٤ ساعة."
+        },
+        "resources_page": {
+            "tag": "دليل الموارد المتميز",
+            "title": "تسرب الإيرادات",
+            "title_highlight": "الخفي",
+            "title_rest": "في دورة إيراداتك | دليل الموارد",
+            "desc": "مؤسسات الرعاية الصحية اليوم لا تعاني من الحجم. إنها تعاني من الرؤية. وهنا تصبح الموارد المناسبة مهمة.",
+            "reality_title": "حقيقة تسرب الإيرادات",
+            "reality_desc": "تسرب الإيرادات لا يحدث في مكان واحد. يحدث بهدوء عبر دورة الإيرادات بأكملها. غالبًا ما تمر المشكلات الصغيرة دون أن يلاحظها أحد، ولكن بمرور الوقت، تؤدي إلى خسارة مالية خطيرة.",
+            "reality_alert": "حدد الإخفاقات الشائعة مثل فحوصات الأهلية المفقودة، التقديمات المتأخرة، والرفض المتكرر قبل أن تؤثر على أرباحك النهائية.",
+            "where_title": "أين يبدأ عادة",
+            "where_points": [
+                "التحقق غير المكتمل أو غير الدقيق من الأهلية",
+                "تناقضات الترميز عبر مقدمي الخدمات والتخصصات",
+                "الافتقار إلى التحقق من صحة المطالبات في الوقت الفعلي",
+                "إدارة الرفض التفاعلية بدلاً من إصلاح السبب الجذري"
+            ],
+            "why_title": "لماذا يهم",
+            "why_desc": "هذه الفجوات تفعل أكثر من مجرد تأخير المدفوعات. إنها تؤثر على مدى سلاسة سير عملياتك. بدون المورد المناسب، تستمر المشاكل في التكرار. تواجه الممارسات دورات حسابات مدينة (A/R) أطول، وزيادة في عبء العمل، وانخفاض في دقة السداد.",
+            "why_alert": "لهذا السبب يبحث العديد من مقدمي الخدمات عن أفضل مورد لخدمات الفوترة الطبية للعيادات الصغيرة لتثبيت تدفقاتهم النقدية.",
+            "why_btn": "احصل على تدقيق للإصلاح",
+            "diff_title": "ما الذي تفعله المنظمات عالية الأداء بشكل مختلف",
+            "diff_points": [
+                {
+                    "t": "التحقق في الوقت الفعلي",
+                    "p": "يستخدمون الأهلية في الوقت الفعلي والتحقق من البيانات."
+                },
+                {
+                    "t": "مسارات عمل منظمة",
+                    "p": "يتبعون مسارات عمل ترميز منظمة وجاهزة للتدقيق."
+                },
+                {
+                    "t": "إصلاحات استباقية",
+                    "p": "يعالجون مشكلات الرفض قبل حدوثها."
+                },
+                {
+                    "t": "تقديم في الوقت المناسب",
+                    "p": "يقدمون المطالبات في الوقت المحدد، في كل مرة."
+                }
+            ],
+            "diff_footer": "يفهمون أيضًا كيف يختارون خدمة فوترة طبية كمورد لممارستي.",
+            "result_title": "النتيجة",
+            "result_stats": [
+                "فعال",
+                "يمكن التنبؤ به",
+                "قابل للتطوير",
+                "قوي مالياً"
+            ],
+            "result_desc": "دورة إيرادات فعالة. مع المورد المناسب، تكتسب الممارسات سيطرة واستقرارًا أفضل.",
+            "result_footer": "المورد المناسب للعيادات الصغيرة"
+        },
+        "privacy_page": {
+            "title": "سياسة الخصوصية",
+            "heading": "الإفصاح عن سياسة الخصوصية",
+            "p1": "<strong>استخدامات وإفصاحات المعلومات الصحية المحمية</strong><br />قد يتم استخدام معلوماتك الصحية المحمية والإفصاح عنها من قبل طبيبك، وموظفي مكتبنا وغيرهم من خارج مكتبنا المشاركين في رعايتك وعلاجك لغرض تقديم خدمات الرعاية الصحية لك. قد يتم أيضًا استخدام معلوماتك الصحية المحمية والإفصاح عنها لدفع فواتير الرعاية الصحية الخاصة بك ولدعم تشغيل عيادة طبيبك.",
+            "p2": "فيما يلي أمثلة على أنواع الاستخدامات والإفصاحات لمعلوماتك الصحية المحمية التي يُسمح لمكتب طبيبك بالقيام بها. هذه الأمثلة لا يُقصد بها أن تكون شاملة، بل لوصف أنواع الاستخدامات والإفصاحات التي قد يقوم بها مكتبنا.",
+            "p3": "<strong>العلاج:</strong> سنستخدم ونفصح عن معلوماتك الصحية المحمية لتقديم أو تنسيق أو إدارة رعايتك الصحية وأي خدمات ذات صلة. يتضمن ذلك تنسيق أو إدارة رعايتك الصحية مع مزود آخر. على سبيل المثال، سنكشف عن معلوماتك الصحية المحمية، حسب الضرورة، لوكالة صحة منزلية تقدم الرعاية لك.",
+            "p4": "سنقوم أيضًا بالإفصاح عن المعلومات الصحية المحمية لأطباء آخرين قد يعالجونك.",
+            "p5": "على سبيل المثال، قد يتم توفير معلوماتك الصحية المحمية لطبيب تمت إحالتك إليه للتأكد من أن الطبيب لديه المعلومات اللازمة لتشخيصك أو علاجك. بالإضافة إلى ذلك، قد نكشف عن معلوماتك الصحية المحمية من وقت لآخر لطبيب أو مقدم رعاية صحية آخر (على سبيل المثال، أخصائي أو مختبر) الذي، بناءً على طلب طبيبك، يشارك في رعايتك من خلال تقديم المساعدة في التشخيص أو العلاج الصحي لطبيبك.",
+            "p6": "<strong>الدفع:</strong> سيتم استخدام معلوماتك الصحية المحمية والإفصاح عنها، حسب الحاجة، للحصول على مدفوعات مقابل خدمات الرعاية الصحية التي نقدمها نحن أو مزود آخر.",
+            "p7": "قد يشمل ذلك أنشطة معينة قد تقوم بها خطة التأمين الصحي الخاصة بك قبل الموافقة على الخدمات الصحية التي نوصي بها لك أو دفعها مثل: تحديد الأهلية أو التغطية لمزايا التأمين، ومراجعة الخدمات المقدمة لك للضرورة الطبية، وإجراء أنشطة مراجعة الاستخدام. على سبيل المثال، قد يتطلب الحصول على موافقة للإقامة في المستشفى الكشف عن معلوماتك الصحية المحمية ذات الصلة بالخطة الصحية للحصول على موافقة على دخول المستشفى.",
+            "p8": "<strong>المعلومات التي يتم جمعها من الزوار/المستخدمين</strong>",
+            "p9": "بالاشتراك مع مواقع الويب والتطبيقات المحمولة الأخرى، يتم تخزين ملفات السجل على خادم الويب لحفظ تفاصيل مثل عنوان IP الخاص بالزائر/المستخدم، ونوع المتصفح، والموقع، والصفحة المرجعية، ووقت ومدة الزيارة.",
+            "p10": "قد تُستخدم ملفات تعريف الارتباط* لتذكر تفضيلات الزائر عند التفاعل مع موقع الويب.",
+            "p11": "عندما يكون التسجيل مطلوبًا، سيتم تخزين البريد الإلكتروني للزائر واسم المستخدم على الخادم.",
+            "p12": "<strong>كيف يتم استخدام المعلومات</strong>",
+            "p13": "يتم استخدام المعلومات لتحسين تجربة الزائر عند استخدام موقع الويب لعرض محتوى مخصص وربما إعلانات.",
+            "p14": "لن يتم بيع عناوين البريد الإلكتروني أو تأجيرها أو إعارتها لجهات خارجية.",
+            "p15": "قد يتم إرسال بريد إلكتروني لإبلاغك بأخبار خدماتنا أو عروضنا من قبلنا أو من قبل الشركات التابعة لنا.",
+            "p16": "<strong>ما هي المعلومات الشخصية؟</strong>",
+            "p17": "لأغراض بيان الخصوصية هذا، يُقصد بـ \"المعلومات الشخصية\" وتتضمن أي بيانات تتعلق بفرد، والتي يمكن استخدامها لتحديد هوية هذا الفرد، والتي هي في حوزة SBN Healthcare Solution. نقوم بجمع ومعالجة واستخدام المعلومات الشخصية المقدمة عبر موقعنا الإلكتروني، بما في ذلك المعلومات التي تقدمها عند التسجيل على موقعنا، على سبيل المثال، الاسم وعنوان البريد الإلكتروني ورقم الهاتف، إلخ.",
+            "p18": "١) استخدام معلوماتك الشخصية",
+            "p19": "نحن نستخدم معلوماتك الشخصية للأغراض التالية:<br />أ) لإنشاء معرف المستخدم الخاص بك؛<br />ب) للاتصال بك والرد على أسئلتك أو طلباتك؛ و<br />ج) لمعالجة طلبات التوظيف.",
+            "p20": "٢) مستلمي البيانات ونقلها والإفصاح عن المعلومات الشخصية:",
+            "p21": "لا تشارك SBN Healthcare معلوماتك الشخصية لأي أغراض تجارية/تسويقية. نحن نشارك معلوماتك الشخصية ضمن المجموعات أدناه، على أساس الحاجة إلى المعرفة.<br />أ) SBN Healthcare أو مع أي من الشركات التابعة لها؛<br />ب) البائعون؛<br />ج) الوكلاء الخارجيون المعتمدون؛ أو<br />د) المقاولون.",
+            "p22": "٣) أمن البيانات<br />اعتمدت SBN Healthcare ممارسات وإجراءات أمنية معقولة ومناسبة بما في ذلك الضوابط الإدارية والأمن المادي والتقنية من أجل حماية معلوماتك الشخصية.",
+            "p23": "٤) الاحتفاظ بالبيانات وحذفها<br />لن يتم الاحتفاظ بالبيانات الشخصية لفترة أطول من اللازم لتحقيق الأغراض الموضحة في بيان الخصوصية هذا ما لم يقتض القانون فترة احتفاظ أطول أو لأغراض تجارية مشروعة ذات صلة مباشرة.",
+            "p24": "يمكن للمستخدمين طلب الحذف الدائم لبياناتهم الشخصية من سجلات الإحالة الخاصة بنا عن طريق إرسال طلب إلى info@sbnhealthcaresolution.com من معرف البريد الإلكتروني المسجل لديهم.",
+            "p25": "٥) التعديلات<br />قد تقوم SBN Healthcare بتحديث أو تعديل بيان الخصوصية هذا عند الاقتضاء، وفقًا لتقديرها.",
+            "p26": "<strong>خيارات الزائر</strong><br />إذا كنت قد اشتركت في إحدى خدماتنا، فيمكنك إلغاء الاشتراك باتباع التعليمات المضمنة في البريد الإلكتروني الذي تتلقاه.",
+            "p27": "قد تتمكن من حظر ملفات تعريف الارتباط عبر إعدادات متصفحك ولكن هذا قد يمنعك من الوصول إلى ميزات معينة في الموقع.<br />* ملفات تعريف الارتباط هي ملفات توقيع رقمية صغيرة يتم تخزينها بواسطة متصفح الويب الخاص بك وتسمح بتسجيل تفضيلاتك عند زيارة موقع الويب. كما يمكن استخدامها لتتبع زيارات العودة إلى الموقع."
+        },
+        "blog_page": {
+            "header_title": "المدونة والرؤى",
+            "header_subtitle": "القيادة الفكرية",
+            "header_desc": "تحليل الخبراء، اتجاهات الصناعة، وأدلة استراتيجية مصممة لتمكين مقدمي الرعاية الصحية في المشهد المالي الحديث.",
+            "empty_title": "ابق على اطلاع",
+            "empty_desc": "المزيد من رؤى الخبراء قادمة قريبًا!",
+            "read_article": "اقرأ المقال"
+        },
+        "process_flow": {
+            "tag": "المشكلة التي نحلها",
+            "title": "هل تفقد عيادتك إيراداتها دون أن تدري؟",
+            "desc1": "يترك العديد من مقدمي الرعاية الصحية آلاف الدولارات على الطاولة كل شهر — ليس بسبب سوء الرعاية، ولكن بسبب فجوات الفوترة التي تستنزف إيراداتهم بهدوء.",
+            "desc2": "غالبًا ما تكون الأسباب غير مرئية حتى يفوت الأوان:",
+            "c1": "المواعيد النهائية الفائتة للمطالبات",
+            "c2": "رموز غير صحيحة",
+            "c3": "مطالبات مرفوضة بدون متابعة",
+            "c4": "أخطاء الأهلية المكتشفة بعد فوات الأوان",
+            "footer1": "هذه ليست مشاكل صغيرة. إنها تتراكم بسرعة. وهنا يأتي دور SBN.",
+            "footer2": "تم تصميم خدمات الفوترة الخارجية بالكامل لدينا لسد كل واحدة من تلك الفجوات",
+            "footer3": " — من لحظة حجز المريض لموعد إلى اليوم الذي تصل فيه الدفعة إلى حسابك. لا تسرب. لا تخمين. لا مفاجآت."
+        },
+        "office_operations": {
+            "tag": "لماذا يختار مقدمو الخدمات SBN",
+            "title": "نتعامل مع إيراداتك وكأنها إيراداتنا",
+            "desc": "هناك العديد من شركات الفوترة. إليك سبب اختيار مقدمي الرعاية الصحية في جميع أنحاء الولايات المتحدة لـ SBN — والبقاء معنا:",
+            "watermark": "المركز العالمي SBN",
+            "r1_t": "أكثر من ١٤ عامًا من الخبرة العملية",
+            "r1_d": "لقد رأينا كل سيناريوهات الفوترة",
+            "r2_t": "أكثر من ٢٠٠ متخصص فواتير متفرغ",
+            "r2_d": "خبراء حقيقيون في مطالباتك، وليس مجرد برنامج",
+            "r3_t": "٩٨٪ معدل قبول المطالبات من المرة الأولى",
+            "r3_d": "رفض أقل، مدفوعات أسرع",
+            "r4_t": "يتم تقديم المطالبات خلال ٤٨ ساعة",
+            "r4_d": "لا تأخير، لا تراكمات",
+            "r5_t": "متوافق مع أكثر من ٥٠ منصة EMR/EHR",
+            "r5_d": "تكامل سلس مع أنظمتك",
+            "r6_t": "شفافية وإبلاغ كامل",
+            "r6_d": "أنت تعرف دائمًا أين تقف أموالك",
+            "r7_t": "عمليات متوافقة مع HIPAA",
+            "r7_d": "بيانات مرضاك محمية دائمًا"
+        },
+        "stats_section": {
+            "tag": "نتائج رأى عملاؤنا",
+            "title": "ممارسات حقيقية. نتائج حقيقية.",
+            "desc": "لا يحصل عملاؤنا على فوترة أفضل فحسب — بل يحصلون على نتائج قابلة للقياس:",
+            "s1_v": "٢٠٪",
+            "s1_l": "متوسط تحسن الإيرادات",
+            "s1_d": "زيادة في إجمالي الإيرادات المحصلة",
+            "s2_v": "٤٠٪",
+            "s2_l": "انخفاض في التكاليف التشغيلية",
+            "s2_d": "انخفاض في النفقات العامة والإدارية",
+            "s3_v": "٣٥٪",
+            "s3_l": "انخفاض في أيام الذمم المدينة (A/R)",
+            "s3_d": "تحول أسرع في حسابات القبض",
+            "s4_v": "$١.٢M+",
+            "s4_l": "الإيرادات المستردة",
+            "s4_d": "مستردة لمجموعة طب أطفال واحدة"
+        },
+        "testimonials_section": {
+            "tag": "دليل النجاح",
+            "title": "موثوق بها من قبل العيادات عالية الأداء",
+            "t1_name": "د. سارة ميتشل",
+            "t1_title": "المدير الطبي",
+            "t1_practice": "ميتشل فاميلي براكتيس",
+            "t1_metric": "٩٠ يومًا",
+            "t1_metricLabel": "لرؤية التأثير",
+            "t1_quote": "حولت SBN Healthcare دورة إيراداتنا. رأينا تأثيرًا فوريًا على التدفق النقدي خلال أول ٩٠ يومًا.",
+            "t2_name": "جيمس ويلسون",
+            "t2_title": "مدير العيادة",
+            "t2_practice": "أوكوود لجراحة العظام",
+            "t2_metric": "١٠٠٪",
+            "t2_metricLabel": "شفافية",
+            "t2_quote": "مستوى الشفافية الذي توفره SBN لا مثيل له. نشعر أخيرًا أن لدينا شريكًا مستثمرًا في نجاحنا المالي بقدر ما نحن كذلك."
+        },
+        "faq_section": {
+            "tag": "أسئلة مكررة",
+            "title": "هل لديك أسئلة؟ لدينا إجابات.",
+            "q1": "ما هي خدمات الفوترة الطبية بالضبط وهل أحتاجها حقًا؟",
+            "a1": "تتعامل خدمات الفوترة الطبية مع العملية الكاملة لتقديم المطالبات والمتابعة حتى تحصل عيادتك على أموالها. تسترد معظم العيادات التي تستعين بمصادر خارجية للفوترة ١٥-٢٥٪ من الإيرادات الإضافية خلال ربعها الأول.",
+            "q2": "كيف تختلف SBN عن شركات الفوترة الأخرى؟",
+            "a2": "معظم شركات الفوترة تعالج المطالبات وتمضي قدمًا. تقوم SBN بمراقبة كل مطالبة بنشاط، وتتابع حالات الرفض، وتوفر تقارير شفافة — مع أكثر من ١٤ عامًا من الخبرة ومعدل قبول من المرة الأولى يبلغ ٩٨٪.",
+            "q3": "ماذا تشمل إدارة دورة الإيرادات؟",
+            "a3": "كل شيء: التحقق من أهلية المريض، والتفويض المسبق، وإدخال الرسوم، والترميز، وتقديم المطالبات، وترحيل المدفوعات، ومتابعة حسابات القبض، وإدارة الرفض — تُدار من البداية إلى النهاية.",
+            "q4": "هل الاستعانة بمصادر خارجية للفوترة آمن لبيانات مرضاي؟",
+            "a4": "بالتأكيد. SBN متوافقة تمامًا مع HIPAA. يتم التعامل مع جميع بيانات المرضى ببروتوكولات أمان صارمة وتخزين مشفر وعناصر تحكم في الوصول.",
+            "q5": "ما مدى سرعة تقديم المطالبات؟",
+            "a5": "خلال ٤٨ ساعة من تلقي الرسوم. تمر كل مطالبة بعملية التنظيف الخاصة بنا أولاً لاكتشاف الأخطاء قبل تقديمها.",
+            "q6": "هل تتعاملون مع المطالبات القديمة غير المدفوعة؟",
+            "a6": "نعم. يعمل فريق AR لدينا على كل من المطالبات الحالية والمتقادمة - حتى تلك التي كانت معلقة لأشهر. تسترد العديد من العيادات الإيرادات التي كانت قد شطبتها بالفعل.",
+            "q7": "ما هي التخصصات التي تغطونها؟",
+            "a7": "الصحة السلوكية، المعدات الطبية/جراحة العظام، الرعاية العاجلة، الرعاية الصحية عن بعد، ومستشفيات التخصصات المتعددة - من بين أمور أخرى. تم تدريب فريقنا على قواعد الدافع الخاصة بالتخصص.",
+            "q8": "كم يكلف ذلك؟",
+            "a8": "نقدم حزمة خدمات كاملة، وفوترة لكل معاملة تبدأ من ٠.٧٥ دولار/مطالبة، وموظفين مخصصين بناءً على FTE، وخطط مخصصة بالكامل. اتصل بنا للحصول على عرض أسعار مجاني بدون التزام.",
+            "q9": "ما هي خدمات الترميز التي تقدمونها؟",
+            "a9": "يتعامل مبرمجونا المعتمدون مع ترميز ICD-١٠ و CPT و HCPCS عبر جميع التخصصات — مما يضمن عددًا أقل من حالات الرفض، وسدادًا كاملاً، وامتثالاً تامًا للدافع.",
+            "q10": "كيف أبدأ؟",
+            "a10": "احجز استشارة مجانية. سنراجع عملية الفوترة الحالية لديك، ونحدد فجوات الإيرادات، ونوصي بالحل المناسب — بدون ضغط وبدون التزام.",
+            "cta_title": "هل أنت مستعد لاسترداد المزيد من الإيرادات؟",
+            "cta_desc": "اتصل بـ SBN Healthcare Solution اليوم للحصول على استشارة مجانية بدون التزام.",
+            "cta_btn": "احصل على استشارة مجانية"
+        },
+        "pricing_section": {
+            "tag": "أسعار تناسبك",
+            "title_line1": "خطط مرنة مبنية حول",
+            "title_line2": "عيادتك",
+            "desc": "نحن ندرك أن كل عيادة مختلفة. لهذا السبب نقدم نماذج تسعير متعددة:",
+            "m1_title": "حزمة الخدمات الكاملة",
+            "m1_desc": "إدارة كاملة للفواتير بسعر ثابت.",
+            "m2_title": "لكل معاملة",
+            "m2_desc": "الدفع أولاً بأول، يبدأ من ٠.٧٥ دولار/للمطالبة.",
+            "m3_title": "على أساس التفرغ",
+            "m3_desc": "موظفون مخصصون للعيادات ذات الحجم الكبير.",
+            "m4_title": "خطة مخصصة",
+            "m4_desc": "مصممة لتناسب احتياجاتك الدقيقة.",
+            "footer": "لا توجد رسوم خفية. لا توجد شروط قفل مفاجئة. مجرد تسعير مباشر يتناسب مع عيادتك.",
+            "btn": "احصل على استشارة مجانية"
+        },
+        "blog_detail": {
+            "default_category": "رؤى",
+            "home": "الرئيسية",
+            "insights": "رؤى",
+            "read_time": "قراءة ٥ دقائق",
+            "toc": "داخل هذا المقال",
+            "author_insight": "رؤية المؤلف",
+            "author_bio": "رؤى الخبراء حول إدارة دورة الإيرادات في الرعاية الصحية وكفاءة العمليات السريرية. يقدم فريقنا أحدث التحديثات في معايير الفوترة والتشفير الطبي.",
+            "cta_title": "هل أنت مستعد لتوسيع عيادتك؟",
+            "cta_desc": "تحدث مع متخصص منصة SBN لاكتشاف كيف يمكن لإطار الحوكمة لدينا تحويل دورة الإيرادات الخاصة بك.",
+            "cta_btn": "احصل على استشارة خبير",
+            "categories": "فئات المقالات",
+            "back": "العودة إلى الرؤى الأساسية"
+        }
+    }
+}
