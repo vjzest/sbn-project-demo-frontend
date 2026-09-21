@@ -45,8 +45,10 @@ export default function RCMCalculatorPageClient() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
+        phone: '',
         practiceName: '',
-        revenue: ''
+        revenue: '',
+        website_url: ''
     });
     const [status, setStatus] = useState({ type: '', message: '' });
 
@@ -59,21 +61,28 @@ export default function RCMCalculatorPageClient() {
         setStatus({ type: 'loading', message: 'Sending request...' });
 
         try {
-            await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/contacts`, {
+            const apiBase = process.env.NEXT_PUBLIC_API_URL || process.env.NEXT_PUBLIC_BACKEND_URL || '';
+            const res = await axios.post(`${apiBase}/contacts`, {
                 name: formData.name,
                 email: formData.email,
                 subject: 'RCM Detailed Revenue Analysis Request',
-                message: `Practice Name: ${formData.practiceName}\nMonthly Revenue: ${formData.revenue || 'Not provided'}`
+                message: `Lead Type: Detailed Revenue Report\n- Practice Name: ${formData.practiceName}\n- Phone: ${formData.phone || 'Not provided'}\n- Monthly Estimated Volume/Revenue: ${formData.revenue || 'Not provided'}`,
+                website_url: formData.website_url
             });
-            setStatus({ type: 'success', message: 'Request submitted successfully! We will contact you soon.' });
-            setFormData({ name: '', email: '', practiceName: '', revenue: '' });
-        } catch (error) {
-            setStatus({ type: 'error', message: 'An error occurred. Please try again.' });
+            if (res.data?.success) {
+                setStatus({ type: 'success', message: 'Report request submitted successfully! An RCM specialist will compile your analysis.' });
+                setFormData({ name: '', email: '', phone: '', practiceName: '', revenue: '', website_url: '' });
+            } else {
+                setStatus({ type: 'error', message: res.data?.error || 'An error occurred. Please try again.' });
+            }
+        } catch (error: any) {
+            const errMsg = error.response?.data?.error || 'An error occurred. Please try again.';
+            setStatus({ type: 'error', message: errMsg });
         }
     };
 
     return (
-        <main className="bg-[#f8faff] relative selection:bg-[#0033e7] selection:text-white pb-20">
+        <div className="bg-[#f8faff] relative selection:bg-[#0033e7] selection:text-white pb-20">
             {/* Custom Premium Hero */}
             <section className="pt-32 pb-16 md:pt-40 md:pb-24 text-center px-4 relative overflow-hidden">
                 <Image
@@ -181,7 +190,7 @@ export default function RCMCalculatorPageClient() {
             </section>
 
             {/* Detailed Analysis Form View */}
-            <section className="py-20 border-b border-blue-50/50 relative">
+            <section id="detailed-analysis" className="py-20 border-b border-blue-50/50 relative">
                 <Image
                     src="/background image.webp"
                     alt="Background"
@@ -196,6 +205,11 @@ export default function RCMCalculatorPageClient() {
                             Want more than just estimates? We can give you a deeper breakdown of your revenue cycle and exactly where you’re losing money.
                         </p>
                         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-8 text-left relative">
+                            {/* Anti-spam honeypot */}
+                            <div style={{ display: 'none' }} aria-hidden="true">
+                                <input type="text" name="website_url" tabIndex={-1} autoComplete="off" value={formData.website_url} onChange={handleChange} />
+                            </div>
+
                             {status.message && (
                                 <div className={`md:col-span-2 p-5 rounded-2xl text-sm font-black uppercase tracking-widest border ${status.type === 'success' ? 'bg-green-50 text-green-600 border-green-100' :
                                     status.type === 'error' ? 'bg-red-50 text-red-600 border-red-100' :
@@ -220,11 +234,15 @@ export default function RCMCalculatorPageClient() {
                                 <input type="text" name="practiceName" value={formData.practiceName} onChange={handleChange} required className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4.5 focus:outline-none focus:ring-2 focus:ring-[#0033e7] focus:bg-white transition-all shadow-sm" placeholder="Practice Name" />
                             </div>
                             <div>
-                                <label className="block text-[11px] font-black text-slate-400 uppercase tracking-widest mb-2 px-1">Monthly Revenue (Optional)</label>
-                                <input type="text" name="revenue" value={formData.revenue} onChange={handleChange} className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4.5 focus:outline-none focus:ring-2 focus:ring-[#0033e7] focus:bg-white transition-all shadow-sm" placeholder="$ Amount" />
+                                <label className="block text-[11px] font-black text-slate-400 uppercase tracking-widest mb-2 px-1">Phone Number (Optional)</label>
+                                <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4.5 focus:outline-none focus:ring-2 focus:ring-[#0033e7] focus:bg-white transition-all shadow-sm" placeholder="+1 (000) 000-0000" />
+                            </div>
+                            <div className="md:col-span-2">
+                                <label className="block text-[11px] font-black text-slate-400 uppercase tracking-widest mb-2 px-1">Estimated Monthly Revenue / Volume</label>
+                                <input type="text" name="revenue" value={formData.revenue} onChange={handleChange} className="w-full bg-slate-50 border border-slate-100 rounded-2xl px-6 py-4.5 focus:outline-none focus:ring-2 focus:ring-[#0033e7] focus:bg-white transition-all shadow-sm" placeholder="$ Amount or Monthly Volume" />
                             </div>
                             <div className="md:col-span-2 text-center mt-6">
-                                <button type="submit" disabled={status.type === 'loading'} className="inline-block bg-[#0033e7] text-white px-14 py-5 rounded-[2rem] font-black uppercase tracking-[2px] transition-all hover:bg-black hover:-translate-y-1 hover:shadow-2xl shadow-xl w-full md:w-auto disabled:opacity-50">
+                                <button type="submit" disabled={status.type === 'loading'} className="inline-block bg-[#0033e7] text-white px-14 py-5 rounded-[2rem] font-black uppercase tracking-[2px] transition-all hover:bg-black hover:-translate-y-1 hover:shadow-2xl shadow-xl w-full md:w-auto disabled:opacity-50 cursor-pointer">
                                     {status.type === 'loading' ? 'Processing...' : 'Request Detailed Report'}
                                 </button>
                             </div>
@@ -304,6 +322,6 @@ export default function RCMCalculatorPageClient() {
                    </div>
                 </section>
 
-        </main>
+        </div>
     );
 }

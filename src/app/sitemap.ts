@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next'
 import { servicesList, specialtiesList } from '@/data/services'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sbnhealthcaresolution.com'
+  const baseUrl = 'https://www.sbnhealthcaresolution.com'
   
-  // 1. Static Core Pages
+  // 1. Static Core Pages (Canonical, Indexable)
   const staticPages = [
     { url: '', priority: 1.0, changeFrequency: 'daily' },
     { url: 'about-us', priority: 0.8, changeFrequency: 'monthly' },
@@ -13,29 +13,32 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: 'specialties', priority: 0.8, changeFrequency: 'weekly' },
     { url: 'pricing', priority: 0.7, changeFrequency: 'monthly' },
     { url: 'rcm-calculator', priority: 0.7, changeFrequency: 'monthly' },
+    { url: 'resources', priority: 0.7, changeFrequency: 'monthly' },
     { url: 'career', priority: 0.6, changeFrequency: 'monthly' },
     { url: 'blog', priority: 0.6, changeFrequency: 'weekly' },
+    { url: 'privacy', priority: 0.5, changeFrequency: 'monthly' },
+    { url: 'terms', priority: 0.5, changeFrequency: 'yearly' },
     { url: 'security', priority: 0.5, changeFrequency: 'monthly' },
-    { url: 'privacy-policy', priority: 0.3, changeFrequency: 'yearly' },
+    { url: 'compliance', priority: 0.5, changeFrequency: 'monthly' },
   ]
 
   // 2. Specialized Content Slugs (Static-Dynamic)
   const serviceSlugs = servicesList.map(s => s.slug)
   const specialtySlugs = specialtiesList.map(s => s.slug)
 
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || process.env.NEXT_PUBLIC_BACKEND_URL;
   let dynamicEntries: any[] = [];
   let blogEntries: any[] = [];
 
   try {
-    // 3. Dynamic SEO Entries from Database
+    // 3. Dynamic SEO Entries from Database (Excluding non-indexable or drafts)
     if (apiUrl && apiUrl.startsWith('http')) {
       const res = await fetch(`${apiUrl}/seo`, { next: { revalidate: 3600 } })
       const json = await res.json()
-      const dbEntries = json?.data || []
+      const dbEntries = (json?.data || []).filter((seo: any) => !seo.robots?.includes('noindex') && seo.page !== 'privacy-policy')
 
       dynamicEntries = Array.isArray(dbEntries) ? dbEntries.map((seo: any) => ({
-        url: `${baseUrl}/${seo.page === 'home' ? '' : seo.page}`,
+        url: seo.page === 'home' ? baseUrl : `${baseUrl}/${seo.page}`,
         lastModified: new Date(seo.updatedAt || Date.now()),
         changeFrequency: 'weekly' as const,
         priority: seo.page === 'home' ? 1.0 : 0.8,

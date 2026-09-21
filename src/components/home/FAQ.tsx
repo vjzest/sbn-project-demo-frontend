@@ -72,8 +72,10 @@ const FAQ = () => {
                     {faqs.map((faq, index) => (
                         <div key={index} className="py-6">
                             <button 
-                                className="w-full flex items-center justify-between text-left focus:outline-none group"
+                                className="w-full flex items-center justify-between text-left focus:outline-none group cursor-pointer"
                                 onClick={() => toggleFaq(index)}
+                                aria-expanded={openIndex === index}
+                                aria-controls={`faq-answer-${index}`}
                             >
                                 <h3 className="text-lg md:text-xl font-bold text-gray-900 group-hover:text-[#0033e7] transition-colors pr-8">
                                     Q{index + 1}. {faq.question}
@@ -84,6 +86,9 @@ const FAQ = () => {
                             </button>
                             
                             <div 
+                                id={`faq-answer-${index}`}
+                                role="region"
+                                aria-label={faq.question}
                                 className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index ? 'max-h-[500px] mt-4' : 'max-h-0'}`}
                             >
                                 <p className="text-gray-600 font-medium leading-relaxed pr-8">

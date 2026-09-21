@@ -9,12 +9,15 @@ export default function ContactForm() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
+        phone: '',
         practiceName: '',
-        claimVolume: ''
+        claimVolume: '',
+        message: '',
+        website_url: '' // Anti-spam honeypot
     });
     const [status, setStatus] = useState({ type: '', message: '' });
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value
@@ -23,19 +26,30 @@ export default function ContactForm() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        setStatus({ type: 'loading', message: 'Generating access...' });
+        setStatus({ type: 'loading', message: 'Submitting consultation request...' });
 
         try {
-            await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/contacts`, {
+            const apiBase = process.env.NEXT_PUBLIC_API_URL || process.env.NEXT_PUBLIC_BACKEND_URL || '';
+            const res = await axios.post(`${apiBase}/contacts`, {
                 name: formData.name,
                 email: formData.email,
-                subject: 'High Conversion Lead - Guide Access',
-                message: `Lead details from Optimized Contact Funnel:\n- Practice Name: ${formData.practiceName}\n- Monthly Claim Volume: ${formData.claimVolume || 'Not provided'}`
+                subject: `Free Consultation Request - ${formData.practiceName || 'Practice'}`,
+                message: `Consultation Lead Details:\n- Practice Name: ${formData.practiceName}\n- Phone: ${formData.phone || 'Not provided'}\n- Monthly Volume: ${formData.claimVolume || 'Not provided'}\n- Notes: ${formData.message || 'None'}`,
+                website_url: formData.website_url
             });
-            setStatus({ type: 'success', message: 'Success! Your guide access has been sent to your email.' });
-            setFormData({ name: '', email: '', practiceName: '', claimVolume: '' });
-        } catch (err) {
-            setStatus({ type: 'error', message: 'Submission failed. Please check your connection or try again.' });
+
+            if (res.data && res.data.success) {
+                setStatus({ 
+                    type: 'success', 
+                    message: 'Thank you! Your consultation request has been received. Our RCM team will reach out within 1 business day.' 
+                });
+                setFormData({ name: '', email: '', phone: '', practiceName: '', claimVolume: '', message: '', website_url: '' });
+            } else {
+                setStatus({ type: 'error', message: res.data?.error || 'Submission failed. Please try again.' });
+            }
+        } catch (err: any) {
+            const errorMsg = err.response?.data?.error || 'Submission failed. Please check your connection or call us directly.';
+            setStatus({ type: 'error', message: errorMsg });
         }
     };
 
@@ -50,20 +64,20 @@ export default function ContactForm() {
             {/* Top accent line */}
             <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-[#0033e7] to-blue-400"></div>
 
-            <div className="mb-12">
+            <div className="mb-10">
                 <h3 className="text-3xl md:text-4xl font-black text-slate-900 mb-5 tracking-tighter">
-                    Get Instant Access to <span className="text-[#0033e7]">the Guide</span>
+                    Schedule Your Free <span className="text-[#0033e7]">Consultation</span>
                 </h3>
                 <p className="text-slate-600 font-bold text-lg leading-relaxed mb-8 tracking-tight">
-                    Identify hidden revenue gaps and understand how structured RCM workflows can improve your financial performance.
+                    Evaluate your current billing performance, uncover claim denial patterns, and discover how our structured RCM workflows increase collections.
                 </p>
 
                 {/* 3 Quick Benefit Bullets */}
                 <div className="space-y-4 mb-4">
                     {[
-                        "Identify revenue leakage points",
-                        "Understand denial impact",
-                        "Improve cash flow predictability"
+                        "Free comprehensive billing audit & gap analysis",
+                        "Actionable plan to reduce denials and aging A/R",
+                        "No obligation, confidential provider review"
                     ].map((benefit, i) => (
                         <div key={i} className="flex items-center gap-4 text-slate-900 font-extrabold text-[15px] tracking-tight">
                             <div className="w-5 h-5 rounded-lg bg-blue-50 text-[#0033e7] flex items-center justify-center flex-shrink-0 group-hover:bg-[#0033e7] group-hover:text-white transition-all duration-300">
@@ -87,7 +101,21 @@ export default function ContactForm() {
                 </div>
             )}
 
-            <form onSubmit={handleSubmit} className="space-y-8">
+            <form onSubmit={handleSubmit} className="space-y-6">
+                {/* Anti-spam honeypot field (hidden from real users) */}
+                <div style={{ display: 'none' }} aria-hidden="true">
+                    <label htmlFor="website_url">Leave this field blank</label>
+                    <input
+                        type="text"
+                        id="website_url"
+                        name="website_url"
+                        tabIndex={-1}
+                        autoComplete="off"
+                        value={formData.website_url}
+                        onChange={handleChange}
+                    />
+                </div>
+
                 {/* 1. Full Name */}
                 <div className="space-y-3">
                     <label htmlFor="name" className="block text-[12px] font-black uppercase text-[#0033e7]/60 tracking-[3px] ml-1">Full Name</label>
@@ -95,7 +123,7 @@ export default function ContactForm() {
                         type="text"
                         id="name"
                         name="name"
-                        placeholder="John Doe"
+                        placeholder="Dr. John Doe"
                         value={formData.name}
                         onChange={handleChange}
                         required
@@ -110,7 +138,7 @@ export default function ContactForm() {
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="john@hospital.com"
+                        placeholder="john@clinic.com"
                         value={formData.email}
                         onChange={handleChange}
                         required
@@ -118,14 +146,28 @@ export default function ContactForm() {
                     />
                 </div>
 
-                {/* 3. Practice Name */}
+                {/* 3. Phone Number */}
                 <div className="space-y-3">
-                    <label htmlFor="practiceName" className="block text-[12px] font-black uppercase text-[#0033e7]/60 tracking-[3px] ml-1">Practice Name</label>
+                    <label htmlFor="phone" className="block text-[12px] font-black uppercase text-[#0033e7]/60 tracking-[3px] ml-1">Phone Number</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="+1 (805) 000-0000"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        className="w-full px-6 py-5 bg-slate-50/50 border border-slate-100 rounded-xl transition-all focus:outline-none focus:border-[#0033e7]/30 focus:bg-white focus:ring-4 focus:ring-blue-50 font-bold text-slate-800 text-[16px] placeholder:text-slate-300"
+                    />
+                </div>
+
+                {/* 4. Practice Name */}
+                <div className="space-y-3">
+                    <label htmlFor="practiceName" className="block text-[12px] font-black uppercase text-[#0033e7]/60 tracking-[3px] ml-1">Practice / Facility Name</label>
                     <input
                         type="text"
                         id="practiceName"
                         name="practiceName"
-                        placeholder="Premier Healthcare LLC"
+                        placeholder="Premier Medical Group"
                         value={formData.practiceName}
                         onChange={handleChange}
                         required
@@ -133,7 +175,7 @@ export default function ContactForm() {
                     />
                 </div>
 
-                {/* 4. Monthly Claim Volume (Optional) */}
+                {/* 5. Monthly Claim Volume (Optional) */}
                 <div className="space-y-3">
                     <div className="flex justify-between items-center ml-1">
                         <label htmlFor="claimVolume" className="block text-[12px] font-black uppercase text-[#0033e7]/60 tracking-[3px]">Monthly Claim Volume</label>
@@ -143,7 +185,7 @@ export default function ContactForm() {
                         type="text"
                         id="claimVolume"
                         name="claimVolume"
-                        placeholder="e.g. 500+ claims"
+                        placeholder="e.g. 500 – 1,000 claims/mo"
                         value={formData.claimVolume}
                         onChange={handleChange}
                         className="w-full px-6 py-5 bg-slate-50/50 border border-slate-100 rounded-xl transition-all focus:outline-none focus:border-[#0033e7]/30 focus:bg-white focus:ring-4 focus:ring-blue-50 font-bold text-slate-800 text-[16px] placeholder:text-slate-300"
@@ -154,9 +196,9 @@ export default function ContactForm() {
                     <button
                         type="submit"
                         disabled={status.type === 'loading'}
-                        className="w-full flex items-center justify-center gap-3 bg-[#0033e7] text-white font-black py-6 rounded-xl uppercase tracking-[4px] text-[13px] transition-all hover:bg-blue-800 hover:shadow-[0_10px_25px_rgba(0,51,231,0.2)] hover:-translate-y-0.5 active:scale-[0.99] disabled:opacity-50 group no-underline"
+                        className="w-full flex items-center justify-center gap-3 bg-[#0033e7] text-white font-black py-6 rounded-xl uppercase tracking-[3px] text-[13px] transition-all hover:bg-blue-800 hover:shadow-[0_10px_25px_rgba(0,51,231,0.2)] hover:-translate-y-0.5 active:scale-[0.99] disabled:opacity-50 group no-underline cursor-pointer"
                     >
-                        {status.type === 'loading' ? 'Encrypting Access...' : 'Unlock Insights'}
+                        {status.type === 'loading' ? 'Scheduling Request...' : 'Schedule Free Consultation'}
                         {!status.type && (
                             <motion.div
                                 animate={{ x: [0, 5, 0] }}
@@ -171,8 +213,8 @@ export default function ContactForm() {
                     
                     {/* Advanced Trust Line */}
                     <p className="mt-8 text-center text-slate-400 font-bold text-[12px] tracking-tight">
-                        “Access will be sent instantly to your email” <br />
-                        <span className="opacity-50 font-medium">No credit card required • GDPR Compliant • Secure Access</span>
+                        “100% Confidential • HIPAA-Compliant Review” <br />
+                        <span className="opacity-50 font-medium">No obligation • Quick 15-minute introductory assessment</span>
                     </p>
                 </div>
             </form>

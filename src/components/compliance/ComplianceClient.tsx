@@ -9,7 +9,7 @@ const ComplianceClient = () => {
     const effectiveDate = "June 1, 2026"; // Or use [Insert Effective Date]
 
     return (
-        <main className="min-h-screen bg-slate-50">
+        <div className="min-h-screen bg-slate-50">
             <PageHeader 
                 title="Compliance Overview" 
                 subtitle="Our commitment to governance, accountability, and responsible operations."
@@ -213,7 +213,7 @@ const ComplianceClient = () => {
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     );
 };
 

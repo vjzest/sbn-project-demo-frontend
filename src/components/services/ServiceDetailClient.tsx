@@ -22,7 +22,7 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
     if (!service) return notFound();
 
     return (
-        <main 
+        <div 
             className="relative selection:bg-[#0033e7] selection:text-white pb-0 bg-cover bg-center bg-fixed"
             style={{ backgroundImage: 'url("/background%20image.webp")' }}
         >
@@ -217,6 +217,6 @@ export default function ServiceDetailClient({ slug }: { slug: string }) {
                     </section>
                 )}
             </div>
-        </main>
+        </div>
     );
 }

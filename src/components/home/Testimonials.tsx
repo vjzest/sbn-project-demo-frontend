@@ -207,8 +207,9 @@ const Testimonials = () => {
                         onClick={(e) => e.stopPropagation()}
                     >
                         <button
-                            className="absolute top-6 right-6 z-20 w-12 h-12 bg-white/10 hover:bg-white/20 hover:text-[#0033e7] backdrop-blur-sm text-white rounded-full flex items-center justify-center transition-all duration-300 border border-white/20"
+                            className="absolute top-6 right-6 z-20 w-12 h-12 bg-white/10 hover:bg-white/20 hover:text-[#0033e7] backdrop-blur-sm text-white rounded-full flex items-center justify-center transition-all duration-300 border border-white/20 cursor-pointer"
                             onClick={() => setSelectedVideo(null)}
+                            aria-label="Close video player"
                         >
                             <FaTimes size={18} />
                         </button>

@@ -22,7 +22,7 @@ export default function SpecialtyDetailClient({ slug }: { slug: string }) {
     if (!specialty) return notFound();
 
     return (
-        <main 
+        <div 
             className="relative selection:bg-[#0033e7] selection:text-white pb-0 bg-cover bg-center bg-fixed"
             style={{ backgroundImage: 'url("/background%20image.webp")' }}
         >
@@ -160,6 +160,6 @@ export default function SpecialtyDetailClient({ slug }: { slug: string }) {
                     })}
                 </div>
             </div>
-        </main>
+        </div>
     );
 }

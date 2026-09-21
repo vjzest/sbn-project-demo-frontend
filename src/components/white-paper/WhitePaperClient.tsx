@@ -12,7 +12,7 @@ const fadeUp: any = {
 
 export default function WhitePaperClient() {
     return (
-        <main 
+        <div 
             className="relative selection:bg-[#0033e7] selection:text-white bg-cover bg-center bg-fixed"
             style={{ backgroundImage: 'url("/background%20image.webp")' }}
         >
@@ -156,10 +156,20 @@ export default function WhitePaperClient() {
                                     The right resource for small clinics
                                 </p>
                             </div>
+
+                            <div className="mt-12 text-center">
+                                <Link
+                                    href="/contact-us"
+                                    className="inline-flex items-center gap-3 bg-[#0033e7] text-white px-8 py-5 rounded-2xl font-black text-sm uppercase tracking-wider hover:bg-blue-800 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 no-underline"
+                                >
+                                    <span>Schedule Consultation with an RCM Expert</span>
+                                    <FaArrowRight />
+                                </Link>
+                            </div>
                         </motion.div>
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     );
 }

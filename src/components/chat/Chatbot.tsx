@@ -58,7 +58,8 @@ const Chatbot = () => {
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setIsOpen(!isOpen)}
-                className="bg-[#0B1F33] text-white p-5 rounded-2xl shadow-[0_20px_40px_rgba(0,51,231,0.2)] flex items-center justify-center border border-white/10 backdrop-blur-md relative group transition-all"
+                aria-label={isOpen ? "Close AI Chat Assistant" : "Open AI Chat Assistant"}
+                className="bg-[#0B1F33] text-white p-5 rounded-2xl shadow-[0_20px_40px_rgba(0,51,231,0.2)] flex items-center justify-center border border-white/10 backdrop-blur-md relative group transition-all cursor-pointer"
             >
                 {isOpen ? <FaTimes size={24} /> : (
                     <div className="flex items-center gap-3">
@@ -84,18 +85,33 @@ const Chatbot = () => {
                         {/* Header */}
                         <div className="bg-[#0B1F33] p-6 text-white relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-40 h-40 bg-[#0033e7]/30 rounded-full blur-[40px] -mr-10 -mt-10 pointer-events-none"></div>
-                            <div className="flex items-center gap-4 relative z-10">
-                                <div className="w-12 h-12 bg-black/40 rounded-xl flex items-center justify-center border border-white/10 shadow-inner">
-                                    <FaRobot size={24} className="text-[#60a5fa]" />
-                                </div>
-                                <div>
-                                    <h3 className="text-[17px] font-extrabold tracking-tight leading-tight text-white">SBN Intelligence Core</h3>
-                                    <div className="flex items-center gap-2 mt-1">
-                                        <span className="w-1.5 h-1.5 bg-green-400 rounded-full shadow-[0_0_8px_rgba(74,222,128,0.8)]"></span>
-                                        <p className="text-[10px] text-slate-400 font-bold uppercase tracking-[2px]">Systems Online</p>
+                            <div className="flex items-center justify-between relative z-10">
+                                <div className="flex items-center gap-4">
+                                    <div className="w-12 h-12 bg-black/40 rounded-xl flex items-center justify-center border border-white/10 shadow-inner">
+                                        <FaRobot size={24} className="text-[#60a5fa]" />
+                                    </div>
+                                    <div>
+                                        <h3 className="text-[17px] font-extrabold tracking-tight leading-tight text-white">SBN Intelligence Core</h3>
+                                        <div className="flex items-center gap-2 mt-1">
+                                            <span className="w-1.5 h-1.5 bg-green-400 rounded-full shadow-[0_0_8px_rgba(74,222,128,0.8)]"></span>
+                                            <p className="text-[10px] text-slate-400 font-bold uppercase tracking-[2px]">Systems Online</p>
+                                        </div>
                                     </div>
                                 </div>
+                                <button
+                                    onClick={() => setIsOpen(false)}
+                                    aria-label="Close Chat Window"
+                                    className="text-slate-400 hover:text-white p-2 transition-colors cursor-pointer"
+                                >
+                                    <FaTimes size={18} />
+                                </button>
                             </div>
+                        </div>
+
+                        {/* No-PHI Compliance Notice Banner */}
+                        <div className="bg-amber-50 border-b border-amber-200/60 px-4 py-2.5 text-[11px] text-amber-900 font-bold flex items-center gap-2 shrink-0">
+                            <span className="text-amber-600">🛡️</span>
+                            <span><strong>No-PHI Notice:</strong> Do not enter patient names, records, or health data.</span>
                         </div>
 
                         {/* Messages Area */}
@@ -107,7 +123,7 @@ const Chatbot = () => {
                                     </div>
                                     <p className="text-slate-900 font-extrabold text-[17px] mb-2 tracking-tight">Enterprise RCM AI</p>
                                     <p className="text-slate-600 text-[14px] font-medium leading-[1.7]">
-                                        How can I assist your practice with high-octane revenue cycle management today?
+                                        How can I assist your practice with revenue cycle management and medical billing inquiries today?
                                     </p>
                                 </div>
                             )}
@@ -138,22 +154,22 @@ const Chatbot = () => {
                             <form onSubmit={handleSendMessage} className="flex gap-2 bg-slate-50 p-2 rounded-xl border border-slate-200 focus-within:border-[#0033e7]/50 focus-within:bg-white focus-within:shadow-[0_0_0_4px_rgba(0,51,231,0.05)] transition-all">
                                 <input
                                     type="text"
+                                    aria-label="Chat message input"
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
-                                    placeholder="Type your inquiry..."
-                                    className="flex-grow px-3 py-2 bg-transparent text-[14px] focus:outline-none font-medium text-slate-800 placeholder:text-slate-400"
+                                    placeholder="Ask about medical billing..."
+                                    className="flex-grow bg-transparent px-3 py-2 text-[14px] font-medium text-slate-800 focus:outline-none placeholder:text-slate-400"
+                                    disabled={isLoading}
                                 />
                                 <button
                                     type="submit"
-                                    disabled={isLoading || !message.trim()}
-                                    className="bg-[#0033e7] text-white w-10 h-10 rounded-xl flex items-center justify-center hover:bg-blue-800 transition-all shadow-sm disabled:opacity-30 disabled:grayscale disabled:hover:bg-[#0033e7]"
+                                    aria-label="Send message"
+                                    disabled={!message.trim() || isLoading}
+                                    className="bg-[#0033e7] text-white p-3.5 rounded-xl hover:bg-blue-800 transition-colors disabled:opacity-30 disabled:hover:bg-[#0033e7] cursor-pointer"
                                 >
-                                    <FaPaperPlane size={14} className="ml-0.5" />
+                                    <FaPaperPlane size={14} />
                                 </button>
                             </form>
-                            <p className="text-[10px] text-center text-slate-400 font-bold uppercase tracking-[2px] mt-4 flex items-center justify-center gap-1.5">
-                                <FaBolt className="text-[#0033e7]/50" /> HIPAA Compliant Environment
-                            </p>
                         </div>
                     </motion.div>
                 )}

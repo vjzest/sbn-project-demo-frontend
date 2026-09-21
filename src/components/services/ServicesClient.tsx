@@ -14,7 +14,7 @@ const fadeUp: any = {
 
 export default function ServicesClient() {
     return (
-        <main 
+        <div 
             className="relative selection:bg-[#0033e7] selection:text-white overflow-hidden"
         >
             <Image
@@ -253,6 +253,6 @@ export default function ServicesClient() {
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     );
 }

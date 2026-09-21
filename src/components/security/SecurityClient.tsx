@@ -9,7 +9,7 @@ const SecurityClient = () => {
     const effectiveDate = "June 1, 2026"; // Or use [Insert Effective Date]
 
     return (
-        <main className="min-h-screen bg-slate-50">
+        <div className="min-h-screen bg-slate-50">
             <PageHeader 
                 title="Security Overview" 
                 subtitle="How we protect confidentiality, integrity, and availability of information."
@@ -228,7 +228,7 @@ const SecurityClient = () => {
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     );
 };
 

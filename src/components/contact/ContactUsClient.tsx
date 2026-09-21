@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export default function ContactUsClient() {
     return (
-        <main className="bg-[#f8faff] relative selection:bg-[#0033e7] selection:text-white">
+        <div className="bg-[#f8faff] relative selection:bg-[#0033e7] selection:text-white">
             {/* Custom Premium Hero (Light Theme) */}
             <section className="bg-gradient-to-b from-[#f4f7ff] to-[#f8faff] pt-32 pb-16 md:pt-40 md:pb-24 text-center px-4 relative overflow-hidden">
                 {/* Glowing Orbs */}
@@ -27,14 +27,14 @@ export default function ContactUsClient() {
                     >
                         <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-[#0033e7] font-bold uppercase text-[11px] tracking-[3px] mb-8 px-5 py-2 rounded-full shadow-sm">
                             <span className="w-2 h-2 bg-[#0033e7] rounded-full animate-pulse shadow-[0_0_10px_rgba(0,51,231,0.5)]"></span>
-                            Contact Us
+                            Free Practice Assessment
                         </div>
                         <h1 className="text-4xl md:text-[3.5rem] lg:text-[4.5rem] font-black text-slate-900 leading-[1.1] mb-8 tracking-tighter">
-                            Unlock Your Practice's <br className="hidden md:block" />
-                            <span className="text-[#0033e7]">Financial Potential</span>
+                            Schedule Your Free <br className="hidden md:block" />
+                            <span className="text-[#0033e7]">Consultation</span>
                         </h1>
                         <p className="text-[17px] md:text-xl text-slate-600 font-bold leading-[1.7] max-w-3xl mx-auto tracking-tight">
-                            Stop the revenue leakage. Get the expert guide to structured RCM workflows and start improving your cash flow predictability today.
+                            Evaluate your practice's revenue cycle, eliminate claim denial bottlenecks, and discover how our structured workflows accelerate cash flow.
                         </p>
                     </motion.div>
                 </div>
@@ -63,6 +63,6 @@ export default function ContactUsClient() {
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
     );
 }

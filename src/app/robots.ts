@@ -23,7 +23,7 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
       {
         userAgent: '*',
         allow: '/',
-        disallow: '/admin/',
+        disallow: ['/admin/', '/api/'],
       },
       {
         userAgent: 'GPTBot',
@@ -38,6 +38,6 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
         allow: '/',
       }
     ],
-    sitemap: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://www.sbnhealthcaresolution.com'}/sitemap.xml`,
+    sitemap: 'https://www.sbnhealthcaresolution.com/sitemap.xml',
   }
 }

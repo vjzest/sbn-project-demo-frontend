@@ -60,7 +60,7 @@ const caseStudiesTemplate = [
 
 export default function AboutClient() {
     return (
-        <main
+        <div
             className="relative selection:bg-[#0033e7] selection:text-white overflow-hidden"
         >
             <Image
@@ -150,8 +150,8 @@ export default function AboutClient() {
                                     Iftikhar Ali Khan is CEO of SBN Healthcare Solution, leading strategy, growth, and scalable RCM systems with expertise in global business, operations, compliance, and long-term performance-driven healthcare outcomes.
                                 </p>
                                 <div className="flex gap-3 relative z-10">
-                                    <a href="https://www.linkedin.com/in/iftikhar-ali-khan/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-900 hover:bg-[#0033e7] hover:text-white transition-all"><FaLinkedin size={14} /></a>
-                                    <a href="mailto:iakhan@sbnhealthcaresolution.com" className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-900 hover:bg-[#0033e7] hover:text-white transition-all"><FaEnvelope size={14} /></a>
+                                    <a href="https://www.linkedin.com/in/iftikhar-ali-khan/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile of Iftikhar Ali Khan" className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-900 hover:bg-[#0033e7] hover:text-white transition-all"><FaLinkedin size={14} /></a>
+                                    <a href="mailto:iakhan@sbnhealthcaresolution.com" aria-label="Email Iftikhar Ali Khan" className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-900 hover:bg-[#0033e7] hover:text-white transition-all"><FaEnvelope size={14} /></a>
                                 </div>
                             </div>
                         </motion.div>
@@ -178,8 +178,8 @@ export default function AboutClient() {
                                     MD Nematullah is Operations Head at SBN Healthcare Solutions, overseeing revenue cycle management, team performance, and client success. Drives operational excellence, ensures compliance, and implements strategic solutions to optimize billing efficiency and maximize healthcare practice profitability.
                                 </p>
                                 <div className="flex gap-3 relative z-10">
-                                    <a href="https://www.linkedin.com/in/md-nematullah-356b0b219/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-900 hover:bg-teal-500 hover:text-white transition-all"><FaLinkedin size={14} /></a>
-                                    <a href="mailto:md.nematullah@sbnhealthcaresolution.com" className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-900 hover:bg-teal-500 hover:text-white transition-all"><FaEnvelope size={14} /></a>
+                                    <a href="https://www.linkedin.com/in/md-nematullah-356b0b219/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile of Md Nematullah" className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-900 hover:bg-teal-500 hover:text-white transition-all"><FaLinkedin size={14} /></a>
+                                    <a href="mailto:md.nematullah@sbnhealthcaresolution.com" aria-label="Email Md Nematullah" className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center text-slate-900 hover:bg-teal-500 hover:text-white transition-all"><FaEnvelope size={14} /></a>
                                 </div>
                             </div>
                         </motion.div>
@@ -382,6 +382,6 @@ export default function AboutClient() {
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     );
 }

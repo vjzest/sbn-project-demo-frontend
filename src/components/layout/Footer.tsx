@@ -52,14 +52,16 @@ const Footer = () => {
                         </p>
                         <div className="flex gap-4">
                             {[
-                                { icon: <FaFacebook />, href: "https://www.facebook.com/BillingGiant/" },
-                                { icon: <FaTwitter />, href: "https://twitter.com/sbnhealthcare" },
-                                { icon: <FaLinkedin />, href: "https://in.linkedin.com/company/sbn-healthcare-solution-llc" }
+                                { icon: <FaFacebook />, href: "https://www.facebook.com/BillingGiant/", label: "Facebook" },
+                                { icon: <FaTwitter />, href: "https://twitter.com/sbnhealthcare", label: "Twitter" },
+                                { icon: <FaLinkedin />, href: "https://in.linkedin.com/company/sbn-healthcare-solution-llc", label: "LinkedIn" }
                             ].map((social, idx) => (
                                 <a
                                     key={idx}
                                     href={social.href}
                                     target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label={`Visit SBN Healthcare on ${social.label}`}
                                     className="w-11 h-11 bg-white/50 backdrop-blur-sm border border-white flex items-center justify-center rounded-2xl text-gray-400 hover:bg-[#0033e7] hover:text-white hover:border-[#0033e7] hover:shadow-lg hover:shadow-blue-600/20 transition-all duration-500 active:scale-95 shadow-sm"
                                 >
                                     {social.icon}
@@ -107,24 +109,15 @@ const Footer = () => {
                                         { name: 'Privacy Notice', href: '/privacy' },
                                         { name: 'Security Overview', href: '/security' },
                                         { name: 'Compliance Overview', href: '/compliance' },
-                                        { name: 'Terms of Service', href: '/terms' },
-                                        { name: 'Responsible Disclosure', href: '#', future: true },
-                                        { name: 'System Status', href: '#', future: true },
-                                        { name: 'Security Whitepaper', href: '#', future: true }
-                                    ].map((item, idx) => (
+                                        { name: 'Terms of Service', href: '/terms' }
+                                    ].map((item) => (
                                         <li key={item.name}>
-                                            {item.future ? (
-                                                <div className="text-gray-400 text-[13px] font-bold flex items-center justify-between cursor-not-allowed">
-                                                    <span>{item.name}</span>
-                                                </div>
-                                            ) : (
-                                                <Link
-                                                    href={item.href}
-                                                    className="text-gray-500 text-[13px] font-bold hover:text-[#0033e7] transition-all no-underline block"
-                                                >
-                                                    {item.name}
-                                                </Link>
-                                            )}
+                                            <Link
+                                                href={item.href}
+                                                className="text-gray-500 text-[13px] font-bold hover:text-[#0033e7] transition-all no-underline block"
+                                            >
+                                                {item.name}
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>
@@ -183,6 +176,7 @@ const Footer = () => {
                             <div className="space-y-4">
                                 <a
                                     href="tel:8054264609"
+                                    aria-label="Call US Headquarters at +1 805 426 4609"
                                     className="text-gray-600 text-[15px] flex items-center gap-4 transition-all hover:text-[#0033e7] group no-underline"
                                 >
                                     <div className="w-8 h-8 rounded-lg bg-blue-600/10 flex items-center justify-center text-[#0033e7] group-hover:bg-[#0033e7] group-hover:text-white transition-all shrink-0">
@@ -192,6 +186,7 @@ const Footer = () => {
                                 </a>
                                 <a
                                     href="tel:+971509234437"
+                                    aria-label="Call Middle East Office at +971 50 923 4437"
                                     className="text-gray-600 text-[15px] flex items-center gap-4 transition-all hover:text-[#0033e7] group no-underline"
                                 >
                                     <div className="w-8 h-8 rounded-lg bg-blue-600/10 flex items-center justify-center text-[#0033e7] group-hover:bg-[#0033e7] group-hover:text-white transition-all shrink-0">
@@ -201,6 +196,7 @@ const Footer = () => {
                                 </a>
                                 <a
                                     href="mailto:info@sbnhealthcaresolution.com"
+                                    aria-label="Send email to info@sbnhealthcaresolution.com"
                                     className="text-gray-600 text-[15px] flex items-center gap-4 transition-all hover:text-[#0033e7] group no-underline"
                                 >
                                     <div className="w-8 h-8 rounded-lg bg-blue-600/10 flex items-center justify-center text-[#0033e7] group-hover:bg-[#0033e7] group-hover:text-white transition-all shrink-0">

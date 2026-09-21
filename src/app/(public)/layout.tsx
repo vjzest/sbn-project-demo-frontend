@@ -18,7 +18,7 @@ export default function PublicLayout({
         <>
             <JsonLd />
             <Header />
-            <main>{children}</main>
+            <main id="main-content" tabIndex={-1} className="focus:outline-none">{children}</main>
             <Footer />
             <CookieConsent />
             <Chatbot />

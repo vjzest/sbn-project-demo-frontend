@@ -96,7 +96,8 @@ const OfficeOperations = () => {
                             <div className="flex items-center gap-4 md:gap-6">
                                 <button
                                     onClick={togglePlay}
-                                    className="w-12 h-12 md:w-14 md:h-14 bg-white/20 backdrop-blur-md hover:bg-white text-white hover:text-[#0033e7] rounded-2xl flex items-center justify-center border border-white/40 transition-all duration-300 transform hover:scale-105"
+                                    aria-label={isPlaying ? "Pause office tour video" : "Play office tour video"}
+                                    className="w-12 h-12 md:w-14 md:h-14 bg-white/20 backdrop-blur-md hover:bg-white text-white hover:text-[#0033e7] rounded-2xl flex items-center justify-center border border-white/40 transition-all duration-300 transform hover:scale-105 cursor-pointer"
                                 >
                                     {isPlaying ? <FaPause size={14} /> : <FaPlay size={14} className="ml-0.5" />}
                                 </button>
@@ -106,7 +107,8 @@ const OfficeOperations = () => {
                             </div>
                             <button
                                 onClick={handleFullscreen}
-                                className="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-md hover:bg-white text-white hover:text-[#0033e7] rounded-xl md:rounded-2xl flex items-center justify-center border border-white/40 transition-all duration-300 transform hover:scale-105"
+                                aria-label="Fullscreen office tour video"
+                                className="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-md hover:bg-white text-white hover:text-[#0033e7] rounded-xl md:rounded-2xl flex items-center justify-center border border-white/40 transition-all duration-300 transform hover:scale-105 cursor-pointer"
                             >
                                 <FaExpand size={14} />
                             </button>

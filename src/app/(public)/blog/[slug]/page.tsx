@@ -58,17 +58,23 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
         '@type': post.schemaType || 'BlogPosting',
         headline: post.title,
         image: post.image,
-        author: {
-            '@type': 'Person',
-            name: post.author?.name || 'SBN Healthcare Team',
-            description: post.author?.bio
-        },
+        author: post.author?.name && post.author.name !== 'SBN Healthcare Team'
+            ? {
+                '@type': 'Person',
+                name: post.author.name,
+                description: post.author?.bio
+            }
+            : {
+                '@type': 'Organization',
+                name: 'SBN Healthcare Solution',
+                url: 'https://www.sbnhealthcaresolution.com'
+            },
         publisher: {
             '@type': 'Organization',
             name: 'SBN Healthcare Solution',
             logo: {
                 '@type': 'ImageObject',
-                url: 'https://www.sbnhealthcaresolution.com/logo.webp'
+                url: 'https://www.sbnhealthcaresolution.com/Logo.webp'
             }
         },
         datePublished: post.date,
@@ -76,12 +82,12 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
         description: post.excerpt,
         mainEntityOfPage: {
             '@type': 'WebPage',
-            '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/blog/${post.slug}`
+            '@id': `https://www.sbnhealthcaresolution.com/blog/${post.slug}`
         }
     };
 
     return (
-        <main className="bg-white min-h-screen pb-20">
+        <div className="bg-white min-h-screen pb-20">
             {/* JSON-LD for Search Engines */}
             <script
                 type="application/ld+json"
@@ -115,10 +121,18 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                         <div className="lg:col-span-1 hidden lg:block">
                             <div className="sticky top-32 space-y-12 flex flex-col items-center">
                                 <div className="flex flex-col items-center gap-6">
-                                    <button className="w-12 h-12 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-400 hover:text-[var(--primary-color)] hover:border-[var(--primary-color)] transition-all">
+                                    <button
+                                        type="button"
+                                        aria-label="Share article"
+                                        className="w-12 h-12 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-400 hover:text-[var(--primary-color)] hover:border-[var(--primary-color)] transition-all"
+                                    >
                                         <FaShareAlt size={16} />
                                     </button>
-                                    <button className="w-12 h-12 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-400 hover:text-[var(--primary-color)] hover:border-[var(--primary-color)] transition-all">
+                                    <button
+                                        type="button"
+                                        aria-label="Copy article link"
+                                        className="w-12 h-12 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-400 hover:text-[var(--primary-color)] hover:border-[var(--primary-color)] transition-all"
+                                    >
                                         <FaLink size={16} />
                                     </button>
                                 </div>
@@ -242,6 +256,6 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                     </div>
                 </div>
             </article>
-        </main>
+        </div>
     );
 }

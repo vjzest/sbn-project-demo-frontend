@@ -83,7 +83,7 @@ const faqs = [
 
 export default function PricingPageClient() {
     return (
-        <main className="bg-[#f8faff] relative selection:bg-[#0033e7] selection:text-white pb-20">
+        <div className="bg-[#f8faff] relative selection:bg-[#0033e7] selection:text-white pb-20">
             {/* Custom Premium Hero */}
             <section className="pt-32 pb-16 md:pt-40 md:pb-24 text-center px-4 relative overflow-hidden">
                 <Image
@@ -291,6 +291,6 @@ export default function PricingPageClient() {
                    </div>
                 </section>
 
-        </main>
+        </div>
     );
 }

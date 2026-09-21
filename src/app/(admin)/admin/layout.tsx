@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { AdminAuthProvider, useAdminAuth } from '@/components/admin/AdminAuthProvider';
 import { FaTachometerAlt, FaBlog, FaEnvelope, FaSearch, FaSignOutAlt, FaBars, FaTimes, FaUserCircle, FaExclamationTriangle, FaShieldAlt } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -10,12 +10,22 @@ import Image from 'next/image';
 
 function DashboardLayoutContent({ children }: { children: React.ReactNode }) {
     const pathname = usePathname();
+    const router = useRouter();
     const { logout, loading, admin } = useAdminAuth();
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
     // Auth Guard
     const hasToken = typeof window !== 'undefined' && localStorage.getItem('adminToken');
+
+    const isSeoEditor = admin?.role === 'seo_editor';
+
+    // Route access guard for SEO Editor
+    React.useEffect(() => {
+        if (isSeoEditor && (pathname.startsWith('/admin/contacts') || pathname.startsWith('/admin/error-logs'))) {
+            router.push('/admin/dashboard');
+        }
+    }, [isSeoEditor, pathname, router]);
 
     if (pathname === '/admin') return <>{children}</>;
 
@@ -38,13 +48,15 @@ function DashboardLayoutContent({ children }: { children: React.ReactNode }) {
 
     if (!admin && !loading) return null;
 
-    const navItems = [
+    const allNavItems = [
         { name: 'Dashboard', href: '/admin/dashboard', icon: <FaTachometerAlt /> },
         { name: 'Blogs', href: '/admin/blogs', icon: <FaBlog /> },
-        { name: 'Inquiries', href: '/admin/contacts', icon: <FaEnvelope /> },
+        { name: 'Inquiries', href: '/admin/contacts', icon: <FaEnvelope />, adminOnly: true },
         { name: 'SEO Engine', href: '/admin/seo', icon: <FaSearch /> },
-        { name: 'Error Logs', href: '/admin/error-logs', icon: <FaExclamationTriangle /> },
+        { name: 'Error Logs', href: '/admin/error-logs', icon: <FaExclamationTriangle />, adminOnly: true },
     ];
+
+    const navItems = isSeoEditor ? allNavItems.filter(item => !item.adminOnly) : allNavItems;
 
     return (
         <div className="flex h-screen overflow-hidden bg-[#F8FAFC]">

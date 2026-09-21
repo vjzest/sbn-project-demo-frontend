@@ -1,29 +1,26 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { useRouter } from 'next/navigation';
 
-const RCMCalculator = () => {
-    // Inputs
+interface RCMCalculatorProps {
+    onAuditClick?: (metrics: { monthlyClaims: number; avgBilledAmount: number; denialRate: number; projectedRecovery: number }) => void;
+}
+
+const RCMCalculator: React.FC<RCMCalculatorProps> = ({ onAuditClick }) => {
+    const router = useRouter();
+
+    // Inputs (Defaults)
     const [monthlyClaims, setMonthlyClaims] = useState(500);
     const [avgBilledAmount, setAvgBilledAmount] = useState(150);
     const [denialRate, setDenialRate] = useState(15);
-    const [recoveryPotential, setRecoveryPotential] = useState(65); // Improved recovery % for premium feel
+    const recoveryPotential = 65; // Fixed benchmark multiplier
 
-    // Outputs
-    const [monthlyRevenue, setMonthlyRevenue] = useState(0);
-    const [annualLeakage, setAnnualLeakage] = useState(0);
-    const [projectedAnnualRecovery, setProjectedAnnualRecovery] = useState(0);
-
-    useEffect(() => {
-        const rev = monthlyClaims * avgBilledAmount;
-        const leakage = rev * (denialRate / 100) * 12;
-        const recovery = leakage * (recoveryPotential / 100);
-
-        setMonthlyRevenue(rev);
-        setAnnualLeakage(leakage);
-        setProjectedAnnualRecovery(recovery);
-    }, [monthlyClaims, avgBilledAmount, denialRate, recoveryPotential]);
+    // Synchronous Derived Calculations (Zero Flash of False Zero)
+    const monthlyRevenue = monthlyClaims * avgBilledAmount;
+    const annualLeakage = monthlyRevenue * (denialRate / 100) * 12;
+    const projectedAnnualRecovery = annualLeakage * (recoveryPotential / 100);
 
     const formatCurrency = (val: number) => {
         return new Intl.NumberFormat('en-US', {
@@ -31,6 +28,34 @@ const RCMCalculator = () => {
             currency: 'USD',
             maximumFractionDigits: 0
         }).format(val);
+    };
+
+    const handleExecuteAudit = () => {
+        const metrics = {
+            monthlyClaims,
+            avgBilledAmount,
+            denialRate,
+            projectedRecovery: Math.round(projectedAnnualRecovery)
+        };
+
+        if (onAuditClick) {
+            onAuditClick(metrics);
+            return;
+        }
+
+        // Check if there is an in-page detailed analysis section
+        const targetElement = document.getElementById('detailed-analysis');
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+            // Populate inputs if present
+            const revenueInput = document.querySelector('input[name="revenue"]') as HTMLInputElement;
+            if (revenueInput) {
+                revenueInput.value = `$${monthlyRevenue.toLocaleString()}`;
+                revenueInput.dispatchEvent(new Event('input', { bubbles: true }));
+            }
+        } else {
+            router.push(`/contact-us?type=audit&volume=${monthlyClaims}&revenue=${monthlyRevenue}`);
+        }
     };
 
     return (
@@ -45,14 +70,16 @@ const RCMCalculator = () => {
                             <span className="text-[#0033e7] font-black uppercase text-[10px] tracking-[5px] block">System Data</span>
                         </div>
                         <h3 className="text-3xl md:text-4xl font-black text-slate-900 tracking-tight leading-tight">Practice Profile</h3>
-                        <p className="text-slate-500 font-medium text-sm mt-4">Adjust the sliders to reflect your current practice metrics for a high-precision ROI analysis.</p>
+                        <p className="text-slate-500 font-medium text-sm mt-4">Adjust the sliders to reflect your current practice metrics for an illustrative ROI analysis.</p>
                     </div>
 
                     <div className="space-y-16">
                         {/* Monthly Claims */}
                         <div className="group">
                             <div className="flex justify-between items-end mb-6">
-                                <label className="text-slate-900 font-black text-xs uppercase tracking-widest group-hover:text-[#0033e7] transition-colors">Monthly Claim Volume</label>
+                                <label htmlFor="monthlyClaimsSlider" className="text-slate-900 font-black text-xs uppercase tracking-widest group-hover:text-[#0033e7] transition-colors">
+                                    Monthly Claim / Encounter Volume
+                                </label>
                                 <motion.span
                                     key={monthlyClaims}
                                     initial={{ opacity: 0, y: 10 }}
@@ -63,11 +90,16 @@ const RCMCalculator = () => {
                                 </motion.span>
                             </div>
                             <input
+                                id="monthlyClaimsSlider"
                                 type="range"
                                 min="100"
                                 max="10000"
                                 step="100"
                                 value={monthlyClaims}
+                                aria-label="Monthly Claim Volume Slider"
+                                aria-valuemin={100}
+                                aria-valuemax={10000}
+                                aria-valuenow={monthlyClaims}
                                 onChange={(e) => setMonthlyClaims(parseInt(e.target.value))}
                                 className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#0033e7]"
                             />
@@ -80,7 +112,9 @@ const RCMCalculator = () => {
                         {/* Avg Billed Amount */}
                         <div className="group">
                             <div className="flex justify-between items-end mb-6">
-                                <label className="text-slate-900 font-black text-xs uppercase tracking-widest group-hover:text-[#0033e7] transition-colors">Avg. Revenue per Encounter</label>
+                                <label htmlFor="avgBilledSlider" className="text-slate-900 font-black text-xs uppercase tracking-widest group-hover:text-[#0033e7] transition-colors">
+                                    Avg. Billed Revenue per Encounter
+                                </label>
                                 <motion.span
                                     key={avgBilledAmount}
                                     initial={{ opacity: 0, y: 10 }}
@@ -91,11 +125,16 @@ const RCMCalculator = () => {
                                 </motion.span>
                             </div>
                             <input
+                                id="avgBilledSlider"
                                 type="range"
                                 min="50"
                                 max="1000"
                                 step="10"
                                 value={avgBilledAmount}
+                                aria-label="Average Revenue per Encounter Slider"
+                                aria-valuemin={50}
+                                aria-valuemax={1000}
+                                aria-valuenow={avgBilledAmount}
                                 onChange={(e) => setAvgBilledAmount(parseInt(e.target.value))}
                                 className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#0033e7]"
                             />
@@ -108,7 +147,9 @@ const RCMCalculator = () => {
                         {/* Denial Rate */}
                         <div className="group">
                             <div className="flex justify-between items-end mb-6">
-                                <label className="text-slate-900 font-black text-xs uppercase tracking-widest group-hover:text-red-500 transition-colors">Current Denial Index (D.I.)</label>
+                                <label htmlFor="denialRateSlider" className="text-slate-900 font-black text-xs uppercase tracking-widest group-hover:text-red-500 transition-colors">
+                                    Current Denial Index (D.I.)
+                                </label>
                                 <motion.span
                                     key={denialRate}
                                     initial={{ opacity: 0, y: 10 }}
@@ -119,11 +160,16 @@ const RCMCalculator = () => {
                                 </motion.span>
                             </div>
                             <input
+                                id="denialRateSlider"
                                 type="range"
                                 min="1"
                                 max="40"
                                 step="1"
                                 value={denialRate}
+                                aria-label="Current Denial Index Slider"
+                                aria-valuemin={1}
+                                aria-valuemax={40}
+                                aria-valuenow={denialRate}
                                 onChange={(e) => setDenialRate(parseInt(e.target.value))}
                                 className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-red-500"
                             />
@@ -140,7 +186,7 @@ const RCMCalculator = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
                         </div>
                         <div className="relative z-10">
-                            <p className="text-[10px] text-slate-500 font-black uppercase tracking-[2px] mb-1">Gross Monthly Revenue</p>
+                            <p className="text-[10px] text-slate-500 font-black uppercase tracking-[2px] mb-1">Gross Estimated Monthly Billing</p>
                             <p className="text-3xl font-black text-slate-900 tracking-tighter tabular-nums">{formatCurrency(monthlyRevenue)}</p>
                         </div>
                     </div>
@@ -158,7 +204,7 @@ const RCMCalculator = () => {
                                 <span className="w-10 h-1 bg-teal-400 rounded-full"></span>
                                 <span className="text-teal-400 font-black uppercase text-[10px] tracking-[5px] block">Impact Report</span>
                             </div>
-                            <h3 className="text-3xl md:text-4xl font-black text-white tracking-tight leading-tight">Financial Recovery Potential</h3>
+                            <h3 className="text-3xl md:text-4xl font-black text-white tracking-tight leading-tight">Illustrative Recovery Potential</h3>
                         </div>
 
                         <div className="space-y-10">
@@ -169,7 +215,7 @@ const RCMCalculator = () => {
                                 <div className="absolute top-0 right-0 p-8 opacity-10">
                                     <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2"><path d="M10 21H3a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2h-3m-6 0V11m0 10l-4-4m4 4l4-4" /></svg>
                                 </div>
-                                <p className="text-[10px] text-white/50 font-black uppercase tracking-widest mb-4">Baseline Yearly Revenue Leakage</p>
+                                <p className="text-[10px] text-white/70 font-black uppercase tracking-widest mb-4">Illustrative Yearly Revenue Exposure</p>
                                 <motion.p
                                     key={annualLeakage}
                                     initial={{ opacity: 0, scale: 0.95 }}
@@ -186,7 +232,9 @@ const RCMCalculator = () => {
                                             className="h-full bg-red-400"
                                         />
                                     </div>
-                                    <span className="text-[10px] font-black text-red-400 uppercase tracking-widest whitespace-nowrap">High Exposure</span>
+                                    <span className="text-[10px] font-black text-red-400 uppercase tracking-widest whitespace-nowrap">
+                                        {denialRate > 10 ? 'High Exposure' : 'Manageable'}
+                                    </span>
                                 </div>
                             </motion.div>
 
@@ -197,7 +245,7 @@ const RCMCalculator = () => {
                                 <div className="absolute bottom-0 right-0 p-8 opacity-20 rotate-12 transform group-hover:scale-110 transition-transform duration-500">
                                     <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3"><path d="M12 1v22m5-18l-5-5-5 5m10 8l-5 5-5-5" /></svg>
                                 </div>
-                                <p className="text-[10px] text-white/70 font-bold uppercase tracking-[3px] mb-4">SBN Projected Recovery (65% Target)</p>
+                                <p className="text-[10px] text-white/80 font-bold uppercase tracking-[3px] mb-4">Projected Recoverable Potential (65% Benchmark Target)</p>
                                 <motion.p
                                     key={projectedAnnualRecovery}
                                     initial={{ opacity: 0, scale: 1.05 }}
@@ -207,11 +255,18 @@ const RCMCalculator = () => {
                                     {formatCurrency(projectedAnnualRecovery)}
                                 </motion.p>
                                 <div className="mt-10 pt-8 border-t border-white/20">
-                                    <button className="w-full bg-white text-[#0033e7] font-bold text-sm uppercase tracking-[2px] py-4 rounded-xl shadow-lg transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl hover:bg-slate-50">
+                                    <button 
+                                        type="button"
+                                        onClick={handleExecuteAudit}
+                                        className="w-full bg-white text-[#0033e7] font-black text-sm uppercase tracking-[2px] py-4 rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:bg-slate-50 cursor-pointer"
+                                    >
                                         Execute Full Audit
                                     </button>
-                                    <p className="text-center mt-6 text-[9px] text-white/50 font-bold uppercase tracking-[3px]">
+                                    <p className="text-center mt-6 text-[10px] text-white/60 font-bold uppercase tracking-[2px]">
                                         Confidential Consultation Included
+                                    </p>
+                                    <p className="text-[10px] text-white/40 mt-4 leading-relaxed text-center font-normal italic">
+                                        *Disclaimer: Illustrative estimate based on entered parameters and standard 65% addressable denial benchmark. Not a guaranteed financial return.
                                     </p>
                                 </div>
                             </motion.div>

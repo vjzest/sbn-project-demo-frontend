@@ -9,7 +9,7 @@ const PrivacyClient = () => {
     const effectiveDate = "June 1, 2026"; // Or use [Insert Effective Date] as requested
 
     return (
-        <main className="min-h-screen bg-slate-50">
+        <div className="min-h-screen bg-slate-50">
             <PageHeader 
                 title="Privacy Notice" 
                 subtitle="How we collect, use, and safeguard your information."
@@ -194,7 +194,7 @@ const PrivacyClient = () => {
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     );
 };
 

@@ -9,7 +9,7 @@ const TermsClient = () => {
     const effectiveDate = "June 1, 2026"; // Or use [Insert Effective Date]
 
     return (
-        <main className="min-h-screen bg-slate-50">
+        <div className="min-h-screen bg-slate-50">
             <PageHeader 
                 title="Terms of Service" 
                 subtitle="Guidelines governing your access and use of our platform and services."
@@ -178,7 +178,7 @@ const TermsClient = () => {
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     );
 };
 

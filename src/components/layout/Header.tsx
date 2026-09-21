@@ -81,6 +81,14 @@ const Header = () => {
         <header
             className={`fixed top-0 left-0 right-0 z-[1000] shadow-sm transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
         >
+            {/* Skip to Main Content Link for Keyboard Accessibility */}
+            <a
+                href="#main-content"
+                className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[10001] focus:bg-white focus:text-[#0033e7] focus:px-4 focus:py-2 focus:font-bold focus:shadow-xl focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0033e7]"
+            >
+                Skip to main content
+            </a>
+
             {/* Main Header - EFFAH Style Light Theme */}
             <div className="bg-white/95 md:backdrop-blur-xl h-[80px] xl:h-[90px] flex items-center border-b border-slate-100 relative">
                 <div className="w-full px-6 lg:px-12 2xl:px-20 flex items-center h-full relative z-10 transition-all duration-300">
@@ -158,6 +166,9 @@ const Header = () => {
                         <button
                             className="w-10 h-10 xl:w-12 xl:h-12 bg-[#0033e7] hover:bg-blue-800 text-white rounded-xl flex items-center justify-center transition-all duration-300 shadow-lg shadow-[#0033e7]/20 xl:hidden"
                             onClick={toggleMenu}
+                            aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+                            aria-expanded={isOpen}
+                            aria-controls="mobile-navigation"
                         >
                             {isOpen ? <FaTimes /> : <FaBars />}
                         </button>
@@ -170,6 +181,7 @@ const Header = () => {
             {/* Mobile Navigation - Light Theme */}
             {isOpen && (
                 <div
+                    id="mobile-navigation"
                     className="xl:hidden absolute top-full left-0 right-0 bg-white p-[30px] shadow-2xl z-[1001] border-b border-slate-100 max-h-[calc(100vh-80px)] overflow-y-auto animate-in fade-in slide-in-from-top-2 duration-300"
                 >
                     <ul className="flex flex-col gap-[20px] p-0 m-0 list-none">

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "test:metadata": "npx tsx scripts/test-metadata-regression.mjs"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",

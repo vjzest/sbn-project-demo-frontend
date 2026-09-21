@@ -35,7 +35,7 @@ export default async function BlogPage() {
     const blogPosts = await getBlogPosts();
 
     return (
-        <main className="bg-slate-50 min-h-screen">
+        <div className="bg-slate-50 min-h-screen">
             <PageHeader
                 title="Blog & Insights"
                 subtitle="Thought Leadership"
@@ -92,7 +92,7 @@ export default async function BlogPage() {
                     )}
                 </div>
             </section>
-        </main>
+        </div>
     );
 }
 
